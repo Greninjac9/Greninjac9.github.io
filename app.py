@@ -11,6 +11,13 @@ IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
 # Escoger un personaje aleatorio al inicio de la sesión
 if "character" not in st.session_state:
     st.session_state["character"] = random.choice(Characters)
+if "attempts_left" not in st.session_state:
+    st.session_state["attempts_left"] = 5
+if "display_images" not in st.session_state:
+    st.session_state["display_images"] = []
+
+character = st.session_state["character"]
+attempts_left = st.session_state["attempts_left"]
 
 character = st.session_state["character"]
 Correct = False
@@ -31,8 +38,6 @@ def CheckValues():
                 size = "50%"
             image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
             if os.path.exists(image_path):
-                # Debugging: Print the image path to check if the file exists
-                st.write(f"Image path: {image_path}")
                 with open(image_path, 'rb') as image_file:
                     image_data = base64.b64encode(image_file.read()).decode()
                 st.markdown(f"""
@@ -40,9 +45,6 @@ def CheckValues():
                     <img src="data:image/png;base64,{image_data}" style="width: {size};" />
                 </div>
                 """, unsafe_allow_html=True)
-            else:
-                # Debugging: Notify if the image does not exist
-                st.write(f"Image not found: {image_path}")
         N += 1
 
 # CSS para mejorar la apariencia con fondo oscuro
@@ -86,20 +88,17 @@ st.markdown("<div class='main'><div class='title'>¡Adivina un personaje!</div>"
 
 for T in range(5, -1, -1):
     guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
-    if guess is not None:
-        col1, col2, col3, col4, col5, col6 = st.columns(6, gap="medium")
-        g_index = CharacterRef.index(guess)
-        if guess == character["Nombre"]:
-            CheckValues()
-            Correct = True
-            st.markdown("<div class='result correct'>¡Correcto! El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
-            st.markdown("</div>", unsafe_allow_html=True)
-            break
-        else:
-            st.markdown("<div class='result incorrect'>INCORRECTO. Intentos restantes: " + str(T) + "</div>", unsafe_allow_html=True)
-            CheckValues()
+    col1, col2, col3, col4, col5, col6 = st.columns(6, gap="medium")
+    g_index = CharacterRef.index(guess)
+    if guess == character["Nombre"]:
+        CheckValues()
+        Correct = True
+        st.markdown("<div class='result correct'>¡Correcto! El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
+        st.markdown("</div>", unsafe_allow_html=True)
+        break
     else:
-        st.markdown("<div class='result incorrect'>Por favor, selecciona un personaje.</div>", unsafe_allow_html=True)
+        st.markdown("<div class='result incorrect'>INCORRECTO. Intentos restantes: " + str(T) + "</div>", unsafe_allow_html=True)
+        CheckValues()
     key += 1
 
 if not Correct:
