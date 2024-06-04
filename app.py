@@ -11,14 +11,8 @@ IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
 # Escoger un personaje aleatorio al inicio de la sesión
 if "character" not in st.session_state:
     st.session_state["character"] = random.choice(Characters)
-if "attempts_left" not in st.session_state:
-    st.session_state["attempts_left"] = 5
-if "display_images" not in st.session_state:
-    st.session_state["display_images"] = []
 
 character = st.session_state["character"]
-attempts_left = st.session_state["attempts_left"]
-
 character = st.session_state["character"]
 Correct = False
 key = 1
@@ -29,7 +23,7 @@ def CheckValues():
     for key in character:
         color = "red"
         size = "100%"
-        time.sleep(0.2)
+        time.sleep(0.1)
         variable_name = "col" + str(N)
         with globals()[variable_name]:
             if Characters[g_index][key] == character[key]:
