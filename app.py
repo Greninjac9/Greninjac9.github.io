@@ -84,6 +84,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+st.image("Inazumadle.png")
+
 for T in range(5, -1, -1):
     guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7, gap="medium")
