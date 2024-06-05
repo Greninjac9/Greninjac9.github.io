@@ -241,10 +241,22 @@ Characters = [
         "EQUIPO": "RAIMON"
     },
     {
+        "Nombre": "MARK EVANS (ADULTO)", "Curso": "ADULTO",
+        "Elemento": "Montaña", "Posición": "DT",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON (GO)"
+    },
+    {
         "Nombre": "MARK EVANS (ARIONS)", "Curso": "2º",
         "Elemento": "Montaña", "Posición": "PR",
         "Género": "M", "Invocador": "EG_Y",
         "EQUIPO": "LOS ARIONS"
+    },
+    {
+        "Nombre": "MARK EVANS (LEGENDARIO)", "Curso": "ADULTO",
+        "Elemento": "Montaña", "Posición": "PR",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON (GO)"
     },
     {
         "Nombre": "MAX", "Curso": "2º",
@@ -289,6 +301,12 @@ Characters = [
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ORFEO"
+    },
+    {
+        "Nombre": "PERCIVAL TRAVIS", "Curso": "ADULTO",
+        "Elemento": "Bosque", "Posición": "DT",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "INAZUMA JAPON"
     },
 
     ### Q ###
@@ -427,8 +445,8 @@ CharacterRef = [
     'DAVID SAMFORD', 'DAVID SAMFORD (REDUX)', 'DESTIN BILLOWS',
     'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'GAMMA', 'GOLDIE LEMMON (CS)', 'HECTOR HELIO', 'HOTEL',
     'JACK WALLSIDE', 'JANUS', 'JUDE SHARP', 'JOSEPH KING', 'JOSEPH KING (REDUX)', 'JORDAN GREENWAY', 'JULIETA', 'KEVIN DRAGONFLY', 
-    'MARK EVANS', 'MARK EVANS (ARIONS)','MAX', 'MIKE', 'MISTER D', 'NATHAN SWIFT', 'NELLY RAIMON',
-    'PAOLO BIANCHI', 'RAY DARK', 'RICCARDO DI RIGO (CS)', 'SAM KINCAID', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
+    'MARK EVANS', 'MARK EVANS (ADULTO)', 'MARK EVANS (ARIOS)', 'MARK EVANS (LEGENDARIO)', 'MAX', 'MIKE', 'MISTER D', 'NATHAN SWIFT', 'NELLY RAIMON',
+    'PAOLO BIANCHI', 'PERCIVAL TRAVIS', 'RAY DARK', 'RICCARDO DI RIGO (CS)', 'SAM KINCAID', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
     'TEZCAT', 'TOD IRONSIDE', 'TORI', 'TYLER MURDOCK', 'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 'WILLIAM GLASS',
     'XAVIER FOSTER', 'XENE', 'ZANARK AVALONIC (CS)'
 ]
