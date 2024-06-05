@@ -5,6 +5,10 @@ from characters import Characters, CharacterRef
 import os
 import base64
 
+st.set_page_config(
+        page_title="Inazumadle",
+)
+
 # Define el directorio de las imágenes
 IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
 
