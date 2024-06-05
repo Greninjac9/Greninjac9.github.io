@@ -146,7 +146,7 @@ Characters = [
     },
     {
         "Nombre": "SHAWN FROSTE", "Curso": "2º",
-        "Elemento": "Aire", "Posición": "DF",
+        "Elemento": "Aire", "Posición": "DL",
         "Género": "M", "EQUIPO": "INAZUMA JAPON"
     },
     {
