@@ -78,6 +78,12 @@ Characters = [
         "EQUIPO": "NEO JAPON"
     },
     {
+        "Nombre": "DAVID SAMFORD", "Curso": "2º",
+        "Elemento": "Bosque", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "INAZUMA JAPON"
+    },
+    {
         "Nombre": "DAVID SAMFORD (REDUX)", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -333,7 +339,8 @@ Characters = [
 
 CharacterRef = [
     'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 'BAI LONG', 'BAI LONG (CS)', 'BETA', 
-    'BRIAR BLOOMHURST', 'BYRON LOVE', 'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 'DESTIN BILLOWS',
+    'BRIAR BLOOMHURST', 'BYRON LOVE', 'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'DARREN LACHANCE', 'DAVE QUAGMIRE', 
+    'DAVID SAMFORD', 'DAVID SAMFORD (REDUX)', 'DESTIN BILLOWS',
     'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'GAMMA', 'GOLDIE LEMMON (CS)', 'HECTOR HELIO', 'HOTEL',
     'JACK WALLSIDE', 'JANUS', 'JUDE SHARP', 'JOSEPH KING', 'JOSEPH KING (REDUX)', 'JORDAN GREENWAY', 'JULIETA', 'KEVIN DRAGONFLY', 
     'MARK EVANS', 'MARK EVANS (ARIONS)','MAX', 'MIKE', 'NATHAN SWIFT', 'NELLY RAIMON',
