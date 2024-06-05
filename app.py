@@ -96,7 +96,7 @@ for T in range(5, -1, -1):
         st.markdown("</div>", unsafe_allow_html=True)
         break
     else:
-        st.markdown("<div class='result incorrect'>INCORRECTO. Intentos restantes: " + str(T) + "</div>", unsafe_allow_html=True)
+        st.markdown("<div class='result incorrect'>Intentos restantes: " + str(T) + "</div>", unsafe_allow_html=True)
         CheckValues()
     key += 1
 
