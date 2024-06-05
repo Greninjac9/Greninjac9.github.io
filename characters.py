@@ -139,7 +139,7 @@ Characters = [
     },
     {
         "Nombre": "FEI RUNE (CS)", "Curso": "Por_Definir",
-        "Elemento": "Bosque", "Posición": "DL",
+        "Elemento": "Bosque", "Posición": "MD",
         "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
     },
