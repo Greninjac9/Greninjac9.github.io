@@ -67,7 +67,7 @@ Characters = [
     },
     {
         "Nombre": "DESTIN BILLOWS", "Curso": "1º",
-        "Elemento": "Bosque", "Posición": "Por_Definir",
+        "Elemento": "Bosque", "Posición": "DT",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "SOUTH CIRRUS"
     },
