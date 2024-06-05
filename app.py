@@ -28,7 +28,7 @@ def CheckValues():
         with globals()[variable_name]:
             if Characters[g_index][key] == character[key]:
                 color = "green"
-            if key in ["Elemento", "Género"]:
+            if key in ["Elemento", "Género","Invocador"]:
                 size = "50%"
             image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
             if os.path.exists(image_path):
