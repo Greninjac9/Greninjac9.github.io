@@ -156,7 +156,7 @@ Characters = [
         "Nombre": "GABRIEL GARCÍA", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DF",
         "Género": "M", "Invocador": "EG_N",
-        "EQUIPO": "RAIMON (GO)"
+        "EQUIPO": "CHRONO STORM"
     },
     {
         "Nombre": "GABRIEL GARCÍA (CS)", "Curso": "2º",
