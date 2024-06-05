@@ -43,8 +43,8 @@ def CheckValues():
                     <img src="data:image/png;base64,{image_data}" style="width: {size};" />
                 </div>
                 """, unsafe_allow_html=True)
-        st.divider()
         N += 1
+    st.divider()
 
 # CSS para mejorar la apariencia con fondo oscuro
 st.markdown("""
