@@ -1,7 +1,13 @@
 Characters = [
     
     ### A ###
-    
+
+    {
+        "Nombre": "AITOR CAZADOR", "Curso": "1º",
+        "Elemento": "Bosque", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON (GO)"
+    },
     {
         "Nombre": "ALFA", "Curso": "Por_Definir",
         "Elemento": "Fuego", "Posición": "DL",
@@ -145,7 +151,19 @@ Characters = [
     },
 
     ### G ###
-    
+
+    {
+        "Nombre": "GABRIEL GARCÍA", "Curso": "2º",
+        "Elemento": "Bosque", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON (GO)"
+    },
+    {
+        "Nombre": "GABRIEL GARCÍA (CS)", "Curso": "2º",
+        "Elemento": "Bosque", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_ARM",
+        "EQUIPO": "RAIMON (GO)"
+    },
     {
         "Nombre": "GAMMA", "Curso": "Por_Definir",
         "Elemento": "Bosque", "Posición": "DL",
@@ -440,10 +458,10 @@ Characters = [
 ]
 
 CharacterRef = [
-    'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 'BAI LONG', 'BAI LONG (CS)', 'BETA', 
+    'AITOR CAZADOR', 'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 'BAI LONG', 'BAI LONG (CS)', 'BETA', 
     'BRIAR BLOOMHURST', 'BYRON LOVE', 'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'DARREN LACHANCE', 'DAVE QUAGMIRE', 
     'DAVID SAMFORD', 'DAVID SAMFORD (REDUX)', 'DESTIN BILLOWS',
-    'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'GAMMA', 'GOLDIE LEMMON (CS)', 'HECTOR HELIO', 'HOTEL',
+    'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'GABRIEL GARCÍA', 'GABRIEL GARCÍA (CS)', 'GAMMA', 'GOLDIE LEMMON (CS)', 'HECTOR HELIO', 'HOTEL',
     'JACK WALLSIDE', 'JANUS', 'JUDE SHARP', 'JOSEPH KING', 'JOSEPH KING (REDUX)', 'JORDAN GREENWAY', 'JULIETA', 'KEVIN DRAGONFLY', 
     'MARK EVANS', 'MARK EVANS (ADULTO)', 'MARK EVANS (ARIONS)', 'MARK EVANS (LEGENDARIO)', 'MAX', 'MIKE', 'MISTER D', 'NATHAN SWIFT', 'NELLY RAIMON',
     'PAOLO BIANCHI', 'PERCIVAL TRAVIS', 'RAY DARK', 'RICCARDO DI RIGO (CS)', 'SAM KINCAID', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
