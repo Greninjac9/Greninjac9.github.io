@@ -256,7 +256,7 @@ Characters = [
         "Nombre": "MARK EVANS (LEGENDARIO)", "Curso": "ADULTO",
         "Elemento": "Montaña", "Posición": "PR",
         "Género": "M", "Invocador": "EG_N",
-        "EQUIPO": "RAIMON (GO)"
+        "EQUIPO": "INAZUMA JAPON LEGENDARIO"
     },
     {
         "Nombre": "MAX", "Curso": "2º",
