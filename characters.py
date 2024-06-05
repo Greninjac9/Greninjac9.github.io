@@ -8,7 +8,7 @@ Characters = [
     {
         "Nombre": "ARION SHERWIND (CS)", "Curso": "1º",
         "Elemento": "Aire", "Posición": "MD",
-        "Género": "M", "Invocador": "EG_Y",
+        "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
     },
     {
@@ -26,13 +26,13 @@ Characters = [
     {
         "Nombre": "BAI LONG (CS)", "Curso": "1º",
         "Elemento": "Aire", "Posición": "DL",
-        "Género": "M", "Invocador": "EG_Y",
+        "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
     },
     {
         "Nombre": "BETA", "Curso": "Por_Definir",
         "Elemento": "Aire", "Posición": "DL",
-        "Género": "F", "Invocador": "EG_Y",
+        "Género": "F", "Invocador": "EG_ARM",
         "EQUIPO": "PROTOCOLO OMEGA"
     },
     {
@@ -74,13 +74,13 @@ Characters = [
     {
         "Nombre": "FEI RUNE (CS)", "Curso": "Por_Definir",
         "Elemento": "Bosque", "Posición": "DL",
-        "Género": "M", "Invocador": "EG_Y",
+        "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
     },
     {
         "Nombre": "FLORA", "Curso": "Por_Definir",
         "Elemento": "Aire", "Posición": "DL",
-        "Género": "F", "Invocador": "EG_Y",
+        "Género": "F", "Invocador": "EG_ARM",
         "EQUIPO": "DESESPERDIDOS"
     },
     {
@@ -164,7 +164,7 @@ Characters = [
     {
         "Nombre": "RICCARDO DI RIGO (CS)", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "MD",
-        "Género": "M", "Invocador": "EG_Y",
+        "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
     },
     {
@@ -224,13 +224,13 @@ Characters = [
     {
         "Nombre": "VICTOR BLADE (CS)", "Curso": "1º",
         "Elemento": "Fuego", "Posición": "DL",
-        "Género": "M", "Invocador": "EG_Y",
+        "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
     },
     {
         "Nombre": "VLADIMIR BLADE", "Curso": "ADULTO",
         "Elemento": "Fuego", "Posición": "DL",
-        "Género": "M", "Invocador": "EG_Y",
+        "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "LOS ARIONS"
     },
     {
@@ -254,7 +254,7 @@ Characters = [
     {
         "Nombre": "ZANARK AVALONIC (CS)", "Curso": "Por_Definir",
         "Elemento": "Montaña", "Posición": "DL",
-        "Género": "M", "Invocador": "EG_Y",
+        "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
     }
 ]
