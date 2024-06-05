@@ -6,8 +6,10 @@ import os
 import base64
 
 st.set_page_config(
-        page_title="Inazumadle",
-)
+    page_title="Inazumadle",
+    page_icon="⚡",
+    layout="centered"
+    )
 
 # Define el directorio de las imágenes
 IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
