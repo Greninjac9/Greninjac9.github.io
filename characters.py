@@ -84,6 +84,12 @@ Characters = [
         "EQUIPO": "DESESPERDIDOS"
     },
     {
+        "Nombre": "GOLDIE LEMMON", "Curso": "1º",
+        "Elemento": "Fuego", "Posición": "DF",
+        "Género": "F", "Invocador": "EG_ARM",
+        "EQUIPO": "CHRONO STORM"
+    },
+    {
         "Nombre": "HECTOR HELIO", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "PR",
         "Género": "M", "Invocador": "EG_N",
