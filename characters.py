@@ -84,7 +84,7 @@ Characters = [
         "EQUIPO": "DESESPERDIDOS"
     },
     {
-        "Nombre": "GOLDIE LEMMON", "Curso": "1º",
+        "Nombre": "GOLDIE LEMMON (CS)", "Curso": "1º",
         "Elemento": "Fuego", "Posición": "DF",
         "Género": "F", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
@@ -267,7 +267,7 @@ Characters = [
 
 CharacterRef = [
     'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 'BAI LONG', 'BAI LONG (CS)', 'BETA', 'BYRON LOVE', 'DARREN LACHANCE', 'DAVE QUAGMIRE',
-    'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'HECTOR HELIO',
+    'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'GOLDIE LEMMON (CS)', 'HECTOR HELIO',
     'JACK WALLSIDE', 'JANUS', 'JUDE SHARP (R.A.)', 'JOE KING', 'JORDAN GREENWAY', 'KEVIN DRAGONFLY', 
     'MARK EVANS', 'MARK EVANS (ARIONS)','MAX', 'NATHAN SWIFT', 'NELLY RAIMON',
     'PAOLO BIANCHI', 'RICCARDO DI RIGO (CS)', 'SAM KINCAID', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
