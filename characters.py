@@ -1,4 +1,7 @@
 Characters = [
+    
+    ### A ###
+    
     {
         "Nombre": "ALFA", "Curso": "Por_Definir",
         "Elemento": "Fuego", "Posición": "DL",
@@ -23,6 +26,9 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON"
     },
+    
+    ### B ###
+    
     {
         "Nombre": "BAI LONG", "Curso": "1º",
         "Elemento": "Aire", "Posición": "DL",
@@ -53,6 +59,9 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ZEUS"
     },
+    
+    ### C ###
+    
     {
         "Nombre": "CALEB STONEWALL", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "MD",
@@ -65,6 +74,9 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ROYAL ACADEMY REDUX"
     },
+    
+    ### D ###
+    
     {
         "Nombre": "DARREN LACHANCE", "Curso": "1º",
         "Elemento": "Bosque", "Posición": "PR",
@@ -101,12 +113,18 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ACADEMIA ALIUS"
     },
+    
+    ### E ###
+    
     {
         "Nombre": "ERIK EAGLE", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "MD",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON"
     },
+
+    ### F ###
+    
     {
         "Nombre": "FEI RUNE", "Curso": "Por_Definir",
         "Elemento": "Bosque", "Posición": "DL",
@@ -125,6 +143,9 @@ Characters = [
         "Género": "F", "Invocador": "EG_ARM",
         "EQUIPO": "DESESPERDIDOS"
     },
+
+    ### G ###
+    
     {
         "Nombre": "GAMMA", "Curso": "Por_Definir",
         "Elemento": "Bosque", "Posición": "DL",
@@ -137,6 +158,9 @@ Characters = [
         "Género": "F", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
     },
+
+    ### H ###
+    
     {
         "Nombre": "HECTOR HELIO", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "PR",
@@ -149,6 +173,11 @@ Characters = [
         "Género": "M", "Invocador": "EG_Y",
         "EQUIPO": "PROTOCOLO OMEGA"
     },
+
+    ### I ###
+    
+    ### J ###
+    
     {
         "Nombre": "JACK WALLSIDE", "Curso": "1º",
         "Elemento": "Montaña", "Posición": "DF",
@@ -191,12 +220,20 @@ Characters = [
         "Género": "F", "Invocador": "EG_N",
         "EQUIPO": "PROTOCOLO OMEGA"
     },
+
+    ### K ###
+    
     {
         "Nombre": "KEVIN DRAGONFLY", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON"
     },
+
+    ### L ###
+    
+    ### M ###
+    
     {
         "Nombre": "MARK EVANS", "Curso": "2º",
         "Elemento": "Montaña", "Posición": "PR",
@@ -222,6 +259,15 @@ Characters = [
         "EQUIPO": "PROTOCOLO OMEGA"
     },
     {
+        "Nombre": "MISTER D", "Curso": "ADULTO",
+        "Elemento": "Montaña", "Posición": "DT",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ORFEO"
+    },
+
+    ### N ###
+    
+    {
         "Nombre": "NATHAN SWIFT", "Curso": "2º",
         "Elemento": "Aire", "Posición": "DF",
         "Género": "M", "Invocador": "EG_N",
@@ -233,11 +279,27 @@ Characters = [
         "Género": "F", "Invocador": "EG_N",
         "EQUIPO": "EQUIPO FEMENINO"
     },
+
+    ### O ###
+
+    ### P ###
+    
     {
         "Nombre": "PAOLO BIANCHI", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ORFEO"
+    },
+
+    ### Q ###
+
+    ### R ###
+    
+    {
+        "Nombre": "RAY DARK", "Curso": "ADULTO",
+        "Elemento": "Montaña", "Posición": "DT",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ROYAL ACADEMY REDUX"
     },
     {
         "Nombre": "RICCARDO DI RIGO (CS)", "Curso": "2º",
@@ -245,6 +307,9 @@ Characters = [
         "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
     },
+
+    ### S ###
+    
     {
         "Nombre": "SAM KINCAID", "Curso": "1º",
         "Elemento": "Fuego", "Posición": "DF",
@@ -275,6 +340,9 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON II"
     },
+
+    ### T ###
+    
     {
         "Nombre": "TEZCAT", "Curso": "1º",
         "Elemento": "Bosque", "Posición": "DL",
@@ -299,6 +367,11 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "NEO JAPON"
     },
+
+    ### U ###
+
+    ### V ###
+    
     {
         "Nombre": "VICTOR BLADE (CS)", "Curso": "1º",
         "Elemento": "Fuego", "Posición": "DL",
@@ -311,12 +384,18 @@ Characters = [
         "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "LOS ARIONS"
     },
+
+    ### W ###
+    
     {
         "Nombre": "WILLIAM GLASS", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON"
     },
+
+    ### X ###
+    
     {
         "Nombre": "XAVIER FOSTER", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "DL",
@@ -329,6 +408,11 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ACADEMIA ALIUS"
     },
+
+    ### Y ###
+
+    ### Z ###
+    
     {
         "Nombre": "ZANARK AVALONIC (CS)", "Curso": "Por_Definir",
         "Elemento": "Montaña", "Posición": "DL",
@@ -343,8 +427,8 @@ CharacterRef = [
     'DAVID SAMFORD', 'DAVID SAMFORD (REDUX)', 'DESTIN BILLOWS',
     'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'GAMMA', 'GOLDIE LEMMON (CS)', 'HECTOR HELIO', 'HOTEL',
     'JACK WALLSIDE', 'JANUS', 'JUDE SHARP', 'JOSEPH KING', 'JOSEPH KING (REDUX)', 'JORDAN GREENWAY', 'JULIETA', 'KEVIN DRAGONFLY', 
-    'MARK EVANS', 'MARK EVANS (ARIONS)','MAX', 'MIKE', 'NATHAN SWIFT', 'NELLY RAIMON',
-    'PAOLO BIANCHI', 'RICCARDO DI RIGO (CS)', 'SAM KINCAID', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
+    'MARK EVANS', 'MARK EVANS (ARIONS)','MAX', 'MIKE', 'MISTER D', 'NATHAN SWIFT', 'NELLY RAIMON',
+    'PAOLO BIANCHI', 'RAY DARK', 'RICCARDO DI RIGO (CS)', 'SAM KINCAID', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
     'TEZCAT', 'TOD IRONSIDE', 'TORI', 'TYLER MURDOCK', 'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 'WILLIAM GLASS',
     'XAVIER FOSTER', 'XENE', 'ZANARK AVALONIC (CS)'
 ]
