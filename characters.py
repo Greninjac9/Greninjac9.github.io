@@ -42,6 +42,12 @@ Characters = [
         "EQUIPO": "PROTOCOLO OMEGA"
     },
     {
+        "Nombre": "BRIAR BLOOMHURST", "Curso": "2º",
+        "Elemento": "Montaña", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "SOUTH CIRRUS"
+    },
+    {
         "Nombre": "BYRON LOVE", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -58,6 +64,12 @@ Characters = [
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "NEO JAPON"
+    },
+    {
+        "Nombre": "DESTIN BILLOWS", "Curso": "1º",
+        "Elemento": "Bosque", "Posición": "Por_Definir",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "SOUTH CIRRUS"
     },
     {
         "Nombre": "DVALIN", "Curso": "3º",
@@ -296,7 +308,8 @@ Characters = [
 ]
 
 CharacterRef = [
-    'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 'BAI LONG', 'BAI LONG (CS)', 'BETA', 'BYRON LOVE', 'DARREN LACHANCE', 'DAVE QUAGMIRE',
+    'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 'BAI LONG', 'BAI LONG (CS)', 'BETA', 
+    'BRIAR BLOOMHURST', 'BYRON LOVE', 'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DESTIN BILLOWS',
     'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'GAMMA', 'GOLDIE LEMMON (CS)', 'HECTOR HELIO', 'HOTEL',
     'JACK WALLSIDE', 'JANUS', 'JUDE SHARP (R.A.)', 'JOE KING', 'JORDAN GREENWAY', 'JULIETA', 'KEVIN DRAGONFLY', 
     'MARK EVANS', 'MARK EVANS (ARIONS)','MAX', 'MIKE', 'NATHAN SWIFT', 'NELLY RAIMON',
