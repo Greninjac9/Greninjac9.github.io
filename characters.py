@@ -1,5 +1,11 @@
 Characters = [
     {
+        "Nombre": "ALFA", "Curso": "Por_Definir",
+        "Elemento": "Fuego", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_ARM",
+        "EQUIPO": "PROTOCOLO OMEGA"
+    },
+    {
         "Nombre": "ARION SHERWIND (ARIONS)", "Curso": "1º",
         "Elemento": "Aire", "Posición": "MD",
         "Género": "M", "Invocador": "EG_Y",
@@ -84,6 +90,12 @@ Characters = [
         "EQUIPO": "DESESPERDIDOS"
     },
     {
+        "Nombre": "GAMMA", "Curso": "Por_Definir",
+        "Elemento": "Bosque", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_ARM",
+        "EQUIPO": "PROTOCOLO OMEGA"
+    },
+    {
         "Nombre": "GOLDIE LEMMON (CS)", "Curso": "1º",
         "Elemento": "Fuego", "Posición": "DF",
         "Género": "F", "Invocador": "EG_ARM",
@@ -94,6 +106,12 @@ Characters = [
         "Elemento": "Fuego", "Posición": "PR",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "THE LITTLE GIANTS"
+    },
+    {
+        "Nombre": "HOTEL", "Curso": "Por_Definir",
+        "Elemento": "Montaña", "Posición": "PR",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "PROTOCOLO OMEGA"
     },
     {
         "Nombre": "JACK WALLSIDE", "Curso": "1º",
@@ -126,6 +144,12 @@ Characters = [
         "EQUIPO": "INAZUMA JAPON"
     },
     {
+        "Nombre": "JULIETA", "Curso": "Por_Definir",
+        "Elemento": "Bosque", "Posición": "DL",
+        "Género": "F", "Invocador": "EG_N",
+        "EQUIPO": "PROTOCOLO OMEGA"
+    },
+    {
         "Nombre": "KEVIN DRAGONFLY", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -148,6 +172,12 @@ Characters = [
         "Elemento": "Aire", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON"
+    },
+    {
+        "Nombre": "MIKE", "Curso": "Por_Definir",
+        "Elemento": "Bosque", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "PROTOCOLO OMEGA"
     },
     {
         "Nombre": "NATHAN SWIFT", "Curso": "2º",
@@ -266,10 +296,10 @@ Characters = [
 ]
 
 CharacterRef = [
-    'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 'BAI LONG', 'BAI LONG (CS)', 'BETA', 'BYRON LOVE', 'DARREN LACHANCE', 'DAVE QUAGMIRE',
-    'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'GOLDIE LEMMON (CS)', 'HECTOR HELIO',
-    'JACK WALLSIDE', 'JANUS', 'JUDE SHARP (R.A.)', 'JOE KING', 'JORDAN GREENWAY', 'KEVIN DRAGONFLY', 
-    'MARK EVANS', 'MARK EVANS (ARIONS)','MAX', 'NATHAN SWIFT', 'NELLY RAIMON',
+    'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 'BAI LONG', 'BAI LONG (CS)', 'BETA', 'BYRON LOVE', 'DARREN LACHANCE', 'DAVE QUAGMIRE',
+    'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'GAMMA', 'GOLDIE LEMMON (CS)', 'HECTOR HELIO', 'HOTEL',
+    'JACK WALLSIDE', 'JANUS', 'JUDE SHARP (R.A.)', 'JOE KING', 'JORDAN GREENWAY', 'JULIETA', 'KEVIN DRAGONFLY', 
+    'MARK EVANS', 'MARK EVANS (ARIONS)','MAX', 'MIKE', 'NATHAN SWIFT', 'NELLY RAIMON',
     'PAOLO BIANCHI', 'RICCARDO DI RIGO (CS)', 'SAM KINCAID', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
     'TEZCAT', 'TOD IRONSIDE', 'TORI', 'TYLER MURDOCK', 'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 'WILLIAM GLASS',
     'XAVIER FOSTER', 'XENE', 'ZANARK AVALONIC (CS)'
