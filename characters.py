@@ -172,7 +172,7 @@ Characters = [
     },
     {
         "Nombre": "GOLDIE LEMMON (CS)", "Curso": "1º",
-        "Elemento": "Fuego", "Posición": "DF",
+        "Elemento": "Fuego", "Posición": "LB",
         "Género": "F", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
     },
@@ -257,6 +257,12 @@ Characters = [
         "Elemento": "Montaña", "Posición": "PR",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON"
+    },
+    {
+        "Nombre": "MARK EVANS (II)", "Curso": "2º",
+        "Elemento": "Montaña", "Posición": "LB",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON II"
     },
     {
         "Nombre": "MARK EVANS (ADULTO)", "Curso": "ADULTO",
@@ -360,7 +366,7 @@ Characters = [
     },
     {
         "Nombre": "SHAWN FROSTE", "Curso": "2º",
-        "Elemento": "Aire", "Posición": "DL",
+        "Elemento": "Aire", "Posición": "LB",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "INAZUMA JAPON"
     },
