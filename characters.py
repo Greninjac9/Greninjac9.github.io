@@ -54,6 +54,12 @@ Characters = [
         "EQUIPO": "ZEUS"
     },
     {
+        "Nombre": "CALEB STONEWALL (REDUX)", "Curso": "2º",
+        "Elemento": "Fuego", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ROYAL ACADEMY REDUX"
+    },
+    {
         "Nombre": "DARREN LACHANCE", "Curso": "1º",
         "Elemento": "Bosque", "Posición": "PR",
         "Género": "M", "Invocador": "EG_N",
@@ -64,6 +70,12 @@ Characters = [
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "NEO JAPON"
+    },
+    {
+        "Nombre": "DAVID SAMFORD (REDUX)", "Curso": "2º",
+        "Elemento": "Bosque", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ROYAL ACADEMY REDUX"
     },
     {
         "Nombre": "DESTIN BILLOWS", "Curso": "1º",
@@ -147,7 +159,13 @@ Characters = [
         "Nombre": "JOE KING", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "PR",
         "Género": "M", "Invocador": "EG_N",
-        "EQUIPO": "ROYAL ACADEMY"
+        "EQUIPO": "NEO JAPON"
+    },
+    {
+        "Nombre": "JOE KING (REDUX)", "Curso": "2º",
+        "Elemento": "Fuego", "Posición": "PR",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ROYAL ACADEMY REDUX"
     },
     {
         "Nombre": "JORDAN GREENWAY", "Curso": "2º",
@@ -309,9 +327,9 @@ Characters = [
 
 CharacterRef = [
     'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 'BAI LONG', 'BAI LONG (CS)', 'BETA', 
-    'BRIAR BLOOMHURST', 'BYRON LOVE', 'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DESTIN BILLOWS',
+    'BRIAR BLOOMHURST', 'BYRON LOVE', 'CALEB STONEWALL (REDUX)', 'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 'DESTIN BILLOWS',
     'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'GAMMA', 'GOLDIE LEMMON (CS)', 'HECTOR HELIO', 'HOTEL',
-    'JACK WALLSIDE', 'JANUS', 'JUDE SHARP (R.A.)', 'JOE KING', 'JORDAN GREENWAY', 'JULIETA', 'KEVIN DRAGONFLY', 
+    'JACK WALLSIDE', 'JANUS', 'JUDE SHARP (R.A.)', 'JOE KING', 'JOE KING (REDUX)', 'JORDAN GREENWAY', 'JULIETA', 'KEVIN DRAGONFLY', 
     'MARK EVANS', 'MARK EVANS (ARIONS)','MAX', 'MIKE', 'NATHAN SWIFT', 'NELLY RAIMON',
     'PAOLO BIANCHI', 'RICCARDO DI RIGO (CS)', 'SAM KINCAID', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
     'TEZCAT', 'TOD IRONSIDE', 'TORI', 'TYLER MURDOCK', 'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 'WILLIAM GLASS',
