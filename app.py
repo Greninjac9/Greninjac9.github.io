@@ -51,7 +51,7 @@ def CheckValues():
 st.markdown("""
     <style>
         body {
-            background: ('assets/Background.png') no-repeat center center fixed;
+            background: url('assets/Background.png') no-repeat center center fixed;
             background-size: cover;
             -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
             backdrop-filter: blur(10px); /* Opera */
@@ -89,8 +89,6 @@ st.markdown("""
 st.image("assets/Inazumadle.png", caption=None, width=None, use_column_width="always", clamp=False, channels="RGB", output_format="PNG")
 for T in range(5, -1, -1):
     guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
-    while guess == None:
-        guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7, gap="medium")
     g_index = CharacterRef.index(guess)
     if guess == character["Nombre"]:
