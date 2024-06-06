@@ -51,7 +51,7 @@ def CheckValues():
 st.markdown("""
     <style>
         body {
-            background: url('assets/Background.png') no-repeat center center fixed;
+            background: ('assets/Background.png') no-repeat center center fixed;
             background-size: cover;
             -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
             backdrop-filter: blur(10px); /* Opera */
