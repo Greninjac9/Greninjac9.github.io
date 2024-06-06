@@ -9,16 +9,16 @@ st.set_page_config(
     page_title="Inazumadle",
     page_icon="⚡",
     layout="centered"
-)
+    )
 
-# Define el directorio de las imágenes y el audio
-IMAGE_DIR = "assets/images"
-AUDIO_DIR = "assets/audio"
+# Define el directorio de las imágenes
+IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
 
 # Escoger un personaje aleatorio al inicio de la sesión
 if "character" not in st.session_state:
     st.session_state["character"] = random.choice(Characters)
 
+character = st.session_state["character"]
 character = st.session_state["character"]
 Correct = False
 key = 1
@@ -34,18 +34,10 @@ def CheckValues():
         with globals()[variable_name]:
             if Characters[g_index][key] == character[key]:
                 color = "green"
-            if key in ["Elemento", "Género", "Invocador"]:
+            if key in ["Elemento", "Género","Invocador"]:
                 size = "65%"
             image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
             if os.path.exists(image_path):
-                st.markdown(f"""
-                <audio id="audio_{N}" autoplay>
-                    <source src="{AUDIO_DIR}/WSD_NEXT_MESSAGE_OLD.wav" type="audio/wav">
-                </audio>
-                <script>
-                document.getElementById("audio_{N}").play();
-                </script>
-                """, unsafe_allow_html=True)
                 with open(image_path, 'rb') as image_file:
                     image_data = base64.b64encode(image_file.read()).decode()
                 st.markdown(f"""
@@ -93,20 +85,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.image("assets/Inazumadle.png", caption=None, width=None, use_column_width="always", clamp=False, channels="RGB", output_format="PNG")
-
-guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
-
 for T in range(5, -1, -1):
-    while guess is None:
+    guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
+    while guess == None:
         guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
-    st.markdown(f"""
-    <audio id="audio_guess" autoplay>
-        <source src="{AUDIO_DIR}/WSD_OK_2.wav" type="audio/wav">
-    </audio>
-    <script>
-    document.getElementById("audio_guess").play();
-    </script>
-    """, unsafe_allow_html=True)
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7, gap="medium")
     g_index = CharacterRef.index(guess)
     if guess == character["Nombre"]:
