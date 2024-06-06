@@ -37,11 +37,15 @@ def CheckValues():
                 size = "65%"
             image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
             if os.path.exists(image_path):
-                st.markdown("""
-                <audio autoplay>
+                audio_html = """
+                <audio id="audio_{N}" autoplay>
                     <source src="assets/audio/WSD_NEXT_MESSAGE_OLD.wav" type="audio/wav">
                 </audio>
-                """, unsafe_allow_html=True)
+                <script>
+                document.getElementById("audio_{N}").play();
+                </script>
+                """.replace("{N}", str(N))
+                st.markdown(audio_html, unsafe_allow_html=True)
                 with open(image_path, 'rb') as image_file:
                     image_data = base64.b64encode(image_file.read()).decode()
                 st.markdown(f"""
@@ -94,11 +98,15 @@ for T in range(5, -1, -1):
     guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
     while guess is None:
         guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
-    st.markdown("""
-    <audio autoplay>
+    audio_html = """
+    <audio id="audio_guess" autoplay>
         <source src="assets/audio/WSD_OK_2.wav" type="audio/wav">
     </audio>
-    """, unsafe_allow_html=True)
+    <script>
+    document.getElementById("audio_guess").play();
+    </script>
+    """
+    st.markdown(audio_html, unsafe_allow_html=True)
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7, gap="medium")
     g_index = CharacterRef.index(guess)
     if guess == character["Nombre"]:
