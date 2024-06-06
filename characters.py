@@ -48,6 +48,12 @@ Characters = [
         "EQUIPO": "CHRONO STORM"
     },
     {
+        "Nombre": "BELLATRIX", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "MD",
+        "Género": "F", "Invocador": "EG_N",
+        "EQUIPO": "ACADEMIA ALIUS"
+    },
+    {
         "Nombre": "BETA", "Curso": "Por_Definir",
         "Elemento": "Aire", "Posición": "DL",
         "Género": "F", "Invocador": "EG_ARM",
@@ -500,7 +506,7 @@ Characters = [
 ]
 
 CharacterRef = [
-    'AITOR CAZADOR', 'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 'BAI LONG', 'BAI LONG (CS)', 'BETA', 
+    'AITOR CAZADOR', 'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 'BAI LONG', 'BAI LONG (CS)', 'BELLATRIX', 'BETA', 
     'BRIAR BLOOMHURST', 'BYRON LOVE', 'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'DARREN LACHANCE', 'DAVE QUAGMIRE', 
     'DAVID SAMFORD', 'DAVID SAMFORD (REDUX)', 'DESTIN BILLOWS',
     'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'GABRIEL GARCÍA', 'GABRIEL GARCÍA (CS)', 'GAMMA', 'GOLDIE LEMMON (CS)', 'HECTOR HELIO', 'HOTEL',
