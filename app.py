@@ -9,7 +9,7 @@ st.set_page_config(
     page_title="Inazumadle",
     page_icon="⚡",
     layout="centered"
-    )
+)
 
 # Define el directorio de las imágenes
 IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
@@ -18,7 +18,6 @@ IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
 if "character" not in st.session_state:
     st.session_state["character"] = random.choice(Characters)
 
-character = st.session_state["character"]
 character = st.session_state["character"]
 Correct = False
 key = 1
@@ -34,11 +33,15 @@ def CheckValues():
         with globals()[variable_name]:
             if Characters[g_index][key] == character[key]:
                 color = "green"
-            if key in ["Elemento", "Género","Invocador"]:
+            if key in ["Elemento", "Género", "Invocador"]:
                 size = "65%"
             image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
             if os.path.exists(image_path):
-                st.audio("assets/audio/WSD_NEXT_MESSAGE_OLD.wav", format="audio/wav", start_time=0, end_time=None, loop=False, autoplay=True)
+                st.markdown("""
+                <audio autoplay>
+                    <source src="assets/audio/WSD_NEXT_MESSAGE_OLD.wav" type="audio/wav">
+                </audio>
+                """, unsafe_allow_html=True)
                 with open(image_path, 'rb') as image_file:
                     image_data = base64.b64encode(image_file.read()).decode()
                 st.markdown(f"""
@@ -86,11 +89,16 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.image("assets/Inazumadle.png", caption=None, width=None, use_column_width="always", clamp=False, channels="RGB", output_format="PNG")
+
 for T in range(5, -1, -1):
     guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
-    while guess == None:
+    while guess is None:
         guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
-    st.audio("assets/audio/WSD_OK_2.wav", format="audio/wav", start_time=0, end_time=None, loop=False, autoplay=True)
+    st.markdown("""
+    <audio autoplay>
+        <source src="assets/audio/WSD_OK_2.wav" type="audio/wav">
+    </audio>
+    """, unsafe_allow_html=True)
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7, gap="medium")
     g_index = CharacterRef.index(guess)
     if guess == character["Nombre"]:
