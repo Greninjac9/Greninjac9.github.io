@@ -51,9 +51,11 @@ def CheckValues():
 st.markdown(f"""
     <style>
         body {{
+            color: #f5f5f5;
+        }}
+        [data-testid="stAppViewContainer"] {{
             background: url('assets/Background.png') no-repeat center center fixed;
             background-size: cover;
-            color: #f5f5f5;
         }}
         [data-testid="stAppViewContainer"] > .main {{
             background: rgba(51, 51, 51, 0.8);
@@ -61,8 +63,7 @@ st.markdown(f"""
             border-radius: 10px;
             text-align: center;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-            -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
-            backdrop-filter: blur(10px); /* Opera */
+            backdrop-filter: blur(10px); /* Aplica el efecto de difuminado */
         }}
         .title {{
             font-size: 24px;
