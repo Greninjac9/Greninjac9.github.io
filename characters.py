@@ -80,6 +80,12 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ROYAL ACADEMY REDUX"
     },
+    {
+        "Nombre": "CELIA HILLS", "Curso": "1º",
+        "Elemento": "Aire", "Posición": "MD",
+        "Género": "F", "Invocador": "EG_N",
+        "EQUIPO": "EQUIPO FEMENINO"
+    },
     
     ### D ###
     
@@ -400,6 +406,18 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON II"
     },
+    {
+        "Nombre": "SILVIA WOODS", "Curso": "2º",
+        "Elemento": "Montaña", "Posición": "PR",
+        "Género": "F", "Invocador": "EG_N",
+        "EQUIPO": "EQUIPO FEMENINO"
+    },
+    {
+        "Nombre": "SUE HARTLAND", "Curso": "2º",
+        "Elemento": "Bosque", "Posición": "DL",
+        "Género": "F", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON II"
+    },
 
     ### T ###
     
@@ -483,12 +501,12 @@ Characters = [
 
 CharacterRef = [
     'AITOR CAZADOR', 'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 'BAI LONG', 'BAI LONG (CS)', 'BETA', 
-    'BRIAR BLOOMHURST', 'BYRON LOVE', 'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'DARREN LACHANCE', 'DAVE QUAGMIRE', 
+    'BRIAR BLOOMHURST', 'BYRON LOVE', 'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'DARREN LACHANCE', 'DAVE QUAGMIRE', 
     'DAVID SAMFORD', 'DAVID SAMFORD (REDUX)', 'DESTIN BILLOWS',
     'DVALIN', 'ERIK EAGLE', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'GABRIEL GARCÍA', 'GABRIEL GARCÍA (CS)', 'GAMMA', 'GOLDIE LEMMON (CS)', 'HECTOR HELIO', 'HOTEL',
     'JACK WALLSIDE', 'JANUS', 'JEAN-PIERRE LAPAN', 'JEAN-PIERRE LAPAN (CS)', 'JUDE SHARP', 'JOSEPH KING', 'JOSEPH KING (REDUX)', 'JORDAN GREENWAY', 'JULIETA', 'KEVIN DRAGONFLY', 
     'MARK EVANS', 'MARK EVANS (II)', 'MARK EVANS (ADULTO)', 'MARK EVANS (ARIONS)', 'MARK EVANS (LEGENDARIO)', 'MAX', 'MIKE', 'MISTER D', 'NATHAN SWIFT', 'NELLY RAIMON',
     'PAOLO BIANCHI', 'PERCIVAL TRAVIS', 'RAY DARK', 'RICCARDO DI RIGO (CS)', 'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
-    'TEZCAT', 'TOD IRONSIDE', 'TORI', 'TYLER MURDOCK', 'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 'WILLIAM GLASS',
+    'SILVIA WOODS', 'SUE HARTLAND', 'TEZCAT', 'TOD IRONSIDE', 'TORI', 'TYLER MURDOCK', 'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 'WILLIAM GLASS',
     'XAVIER FOSTER', 'XENE', 'ZANARK AVALONIC (CS)'
 ]
