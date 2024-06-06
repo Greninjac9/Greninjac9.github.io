@@ -87,6 +87,9 @@ st.markdown("""
 st.image("assets/Inazumadle.png", caption=None, width=None, use_column_width="always", clamp=False, channels="RGB", output_format="PNG")
 for T in range(5, -1, -1):
     guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
+    while guess == None:
+        guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
+    st.audio("WSD_OK_2.wav", format="wav", start_time=0, end_time=None, loop=False, autoplay=True)
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7, gap="medium")
     g_index = CharacterRef.index(guess)
     if guess == character["Nombre"]:
