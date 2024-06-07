@@ -51,7 +51,7 @@ def CheckValues():
                 """, unsafe_allow_html=True))
         for k in range(len(images)):
             with globals()[variable_name]:
-                st.markdown(images[k])
+                st.write(images[k])
             variable_name = "col" + str(N)
             if N == 7:
                 N = 0
