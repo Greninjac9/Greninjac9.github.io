@@ -22,6 +22,14 @@ character = st.session_state["character"]
 Correct = False
 key = 1
 
+# Cargar y codificar la imagen de fondo
+background_image_path = "/mnt/data/image.png"
+if os.path.exists(background_image_path):
+    with open(background_image_path, 'rb') as image_file:
+        background_image_data = base64.b64encode(image_file.read()).decode()
+else:
+    st.error("La imagen de fondo no se encontró.")
+
 # Función para verificar los valores y mostrar el resultado
 def CheckValues():
     N = 1
@@ -50,6 +58,12 @@ def CheckValues():
 # CSS para mejorar la apariencia con fondo oscuro y una imagen de fondo difuminada
 st.markdown(f"""
     <style>
+        body {{
+            color: #f5f5f5;
+        }}
+        [data-testid="stAppViewContainer"] {{
+            background: url('data:image/png;base64,{background_image_data}') no-repeat center center fixed;
+            background-size: cover;
         }}
         [data-testid="stAppViewContainer"] > .main {{
             background: rgba(51, 51, 51, 0.8);
@@ -82,10 +96,11 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 st.image("assets/Inazumadle.png", caption=None, width=None, use_column_width="always", clamp=False, channels="RGB", output_format="PNG")
+
 for T in range(5, -1, -1):
-    guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
+    guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=f"selectbox_{key}", label_visibility="collapsed")
     while guess == None:
-        guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
+        guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=f"selectbox_{key}", label_visibility="collapsed")
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7, gap="medium")
     g_index = CharacterRef.index(guess)
     if guess == character["Nombre"]:
