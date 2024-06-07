@@ -38,17 +38,17 @@ def CheckValues():
         variable_name = "col" + str(N)
         if Characters[g_index][key] == character[key]:
                 color = "green"
-            if key in ["Elemento", "Género","Invocador"]:
-                size = "65%"
-            image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
-            if os.path.exists(image_path):
-                with open(image_path, 'rb') as image_file:
-                    image_data = base64.b64encode(image_file.read()).decode()
-                images.append((f"""
-                <div style='background-color:{color}; padding: 10px; border-radius: 10px;'>
-                    <img src="data:image/png;base64,{image_data}" style="width: {size};" />
-                </div>
-                """, unsafe_allow_html=True))
+        if key in ["Elemento", "Género","Invocador"]:
+            size = "65%"
+        image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
+        if os.path.exists(image_path):
+            with open(image_path, 'rb') as image_file:
+                image_data = base64.b64encode(image_file.read()).decode()
+            images.append((f"""
+            <div style='background-color:{color}; padding: 10px; border-radius: 10px;'>
+                <img src="data:image/png;base64,{image_data}" style="width: {size};" />
+            </div>
+            """, unsafe_allow_html=True))
         for k in range(len(images)):
             with globals()[variable_name]:
                 st.write(images[k])
