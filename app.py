@@ -52,13 +52,6 @@ def CheckValues():
             </div>""")
     
     st.session_state["rows"].append(current_row)
-    
-    for row in st.session_state["rows"]:
-        cols = st.columns(len(row))
-        for idx, img in enumerate(row):
-            with cols[idx]:
-                st.markdown(img, unsafe_allow_html=True)
-        st.divider()
 
 # CSS para mejorar la apariencia con fondo oscuro y una imagen de fondo difuminada
 st.markdown(f"""
@@ -96,11 +89,18 @@ st.markdown(f"""
 st.image("assets/Inazumadle.png", caption=None, width=None, use_column_width="always", clamp=False, channels="RGB", output_format="PNG")
 guess = st.selectbox("Personajes", [ch for ch in CharacterRef if ch not in st.session_state["selected_characters"]], index=None, placeholder="¡Adivina un personaje!", key=st.session_state["key"], label_visibility="collapsed")
 
+for row in st.session_state["rows"]:
+    cols = st.columns(len(row))
+    for idx, img in enumerate(row):
+        with cols[idx]:
+            st.markdown(img, unsafe_allow_html=True)
+    st.divider()
+
 if guess:
     st.session_state["selected_characters"].append(guess)
     g_index = CharacterRef.index(guess)
+    CheckValues()
     if guess == character["Nombre"]:
-        CheckValues()
         Correct = True
         st.markdown("<div class='result correct'>¡Correcto! El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
         st.markdown("</div>", unsafe_allow_html=True)
@@ -108,7 +108,6 @@ if guess:
     else:
         st.session_state["Tries"] -= 1
         st.markdown("<div class='result incorrect'>Intentos restantes: " + str(st.session_state["Tries"]) + "</div>", unsafe_allow_html=True)
-        CheckValues()
         st.session_state["key"] += 1
 
     # Eliminar el personaje seleccionado de las listas
