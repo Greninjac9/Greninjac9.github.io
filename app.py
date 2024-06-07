@@ -14,15 +14,15 @@ st.set_page_config(
 # Define el directorio de las imágenes
 IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
 
-Tries = 6
-key = 1
-images = []
-
 # Escoger un personaje aleatorio al inicio de la sesión
 if "character" not in st.session_state:
     st.session_state["character"] = random.choice(Characters)
 if "images" not in st.session_state:
-    st.session_state["images"] = images
+    st.session_state["images"] = []
+if "Tries" not in st.session_state:
+    st.session_state["Tries"] = 6
+if "key" not in st.session_state:
+    st.session_state["key"] = 1
 
 character = st.session_state["character"]
 Correct = False
@@ -42,7 +42,7 @@ def CheckValues():
             with open(image_path, 'rb') as image_file:
                 image_data = base64.b64encode(image_file.read()).decode()
             st.session_state["images"].append(f"""
-            <div style='background-color:{color}; padding: 10px; border-radius: 10px;'>
+            <div style='background-color:{color}; padding: 10px; margin-bottom: 10px; border-radius: 10px;'>
                 <img src="data:image/png;base64,{image_data}" style="width: {size};" />
             </div>""")
     
@@ -88,7 +88,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 st.image("assets/Inazumadle.png", caption=None, width=None, use_column_width="always", clamp=False, channels="RGB", output_format="PNG")
-guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
+guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=st.session_state["key"], label_visibility="collapsed")
 
 if guess:
     g_index = CharacterRef.index(guess)
@@ -99,10 +99,11 @@ if guess:
         st.markdown("</div>", unsafe_allow_html=True)
         st.markdown("<div class='remaining'>¡Recarga la página para volver a jugar!</div></div>", unsafe_allow_html=True)
     else:
-        Tries -= 1
-        st.markdown("<div class='result incorrect'>Intentos restantes: " + str(Tries) + "</div>", unsafe_allow_html=True)
+        st.session_state["Tries"] -= 1
+        st.markdown("<div class='result incorrect'>Intentos restantes: " + str(st.session_state["Tries"]) + "</div>", unsafe_allow_html=True)
         CheckValues()
-        key += 1
-if Tries == 0 and not Correct:
+        st.session_state["key"] += 1
+
+if st.session_state["Tries"] == 0 and not Correct:
     st.markdown("<div class='result incorrect'>Te has quedado sin intentos... El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
     st.markdown("<div class='remaining'>¡Recarga la página para volver a jugar!</div></div>", unsafe_allow_html=True)
