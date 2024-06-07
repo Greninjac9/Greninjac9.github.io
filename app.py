@@ -26,7 +26,6 @@ if "images" not in st.session_state:
 
 character = st.session_state["character"]
 Correct = False
-key = 1
 
 # Función para verificar los valores y mostrar el resultado
 def CheckValues():
@@ -37,25 +36,24 @@ def CheckValues():
         time.sleep(0.1)
         variable_name = "col" + str(N)
         if Characters[g_index][key] == character[key]:
-                color = "green"
-        if key in ["Elemento", "Género","Invocador"]:
+            color = "green"
+        if key in ["Elemento", "Género", "Invocador"]:
             size = "65%"
         image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
         if os.path.exists(image_path):
             with open(image_path, 'rb') as image_file:
                 image_data = base64.b64encode(image_file.read()).decode()
-            images.append((f"""
+            st.session_state["images"].append((f"""
             <div style='background-color:{color}; padding: 10px; border-radius: 10px;'>
                 <img src="data:image/png;base64,{image_data}" style="width: {size};" />
-            </div> """, unsafe_allow_html=True))
-        for k in range(len(images)):
-            with globals()[variable_name]:
-                st.write(images[k])
-            variable_name = "col" + str(N)
-            if N == 7:
-                N = 0
-            N += 1
-    st.divider()
+            </div> """,))
+    for img in st.session_state["images"]:
+        with globals()[variable_name]:
+            st.markdown(img[0], unsafe_allow_html=True)
+        variable_name = "col" + str(N)
+        if N == 7:
+            N = 0
+        N += 1
 
 # CSS para mejorar la apariencia con fondo oscuro y una imagen de fondo difuminada
 st.markdown(f"""
@@ -103,10 +101,10 @@ if guess != None:
         st.markdown("</div>", unsafe_allow_html=True)
         st.markdown("<div class='remaining'>¡Recarga la página para volver a jugar!</div></div>", unsafe_allow_html=True)
     else:
+        Tries -= 1
         st.markdown("<div class='result incorrect'>Intentos restantes: " + str(Tries) + "</div>", unsafe_allow_html=True)
         CheckValues()
-        Tries -= 1
         key += 1
-if Tries == 0:
-        st.markdown("<div class='result incorrect'>Te has quedado sin intentos... El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
-        st.markdown("<div class='remaining'>¡Recarga la página para volver a jugar!</div></div>", unsafe_allow_html=True)
+if Tries == 0 and not Correct:
+    st.markdown("<div class='result incorrect'>Te has quedado sin intentos... El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
+    st.markdown("<div class='remaining'>¡Recarga la página para volver a jugar!</div></div>", unsafe_allow_html=True)
