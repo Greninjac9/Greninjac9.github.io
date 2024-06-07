@@ -20,10 +20,6 @@ key = 1
 # Escoger un personaje aleatorio al inicio de la sesión
 if "character" not in st.session_state:
     st.session_state["character"] = random.choice(Characters)
-if "tries" not in st.session_state:
-    st.session_state["tries"] = Tries
-if "key" not in st.session_state:
-    st.session_state["key"] = key
 
 character = st.session_state["character"]
 Correct = False
