@@ -25,6 +25,8 @@ if "key" not in st.session_state:
     st.session_state["key"] = 1
 if "rows" not in st.session_state:
     st.session_state["rows"] = []
+if "selected_characters" not in st.session_state:
+    st.session_state["selected_characters"] = []
 
 character = st.session_state["character"]
 Correct = False
@@ -92,9 +94,10 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 st.image("assets/Inazumadle.png", caption=None, width=None, use_column_width="always", clamp=False, channels="RGB", output_format="PNG")
-guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=st.session_state["key"], label_visibility="collapsed")
+guess = st.selectbox("Personajes", [ch for ch in CharacterRef if ch not in st.session_state["selected_characters"]], index=None, placeholder="¡Adivina un personaje!", key=st.session_state["key"], label_visibility="collapsed")
 
 if guess:
+    st.session_state["selected_characters"].append(guess)
     g_index = CharacterRef.index(guess)
     if guess == character["Nombre"]:
         CheckValues()
