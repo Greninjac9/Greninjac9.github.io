@@ -51,10 +51,7 @@ def CheckValues():
 st.markdown(f"""
     <style>
         body {{
-            color: #f5f5f5;
-        }}
-        [data-testid="stAppViewContainer"] {{
-            background: url('assets/Background.png') no-repeat center center fixed;
+            background = 'assets/Background.png' no-repeat center center fixed;
             background-size: cover;
         }}
         [data-testid="stAppViewContainer"] > .main {{
