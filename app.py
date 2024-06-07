@@ -23,8 +23,6 @@ if "Tries" not in st.session_state:
     st.session_state["Tries"] = 6
 if "key" not in st.session_state:
     st.session_state["key"] = 1
-if "rows" not in st.session_state:
-    st.session_state["rows"] = []
 if "selected_characters" not in st.session_state:
     st.session_state["selected_characters"] = []
 
