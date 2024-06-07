@@ -12,7 +12,7 @@ Characters = [
         "Nombre": "ALAN MASTER", "Curso": "1º",
         "Elemento": "Aire", "Posición": "DF",
         "Género": "M", "Invocador": "EG_N",
-        "EQUIPO": "NEO JAPÓN"
+        "EQUIPO": "NEO JAPON"
     },
     {
         "Nombre": "ALFA", "Curso": "Por_Definir",
