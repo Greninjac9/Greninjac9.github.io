@@ -29,12 +29,10 @@ Correct = False
 
 # Función para verificar los valores y mostrar el resultado
 def CheckValues():
-    N = 1
-    for key in character:
+    for N, key in enumerate(character.keys(), start=1):
         color = "red"
         size = "100%"
         time.sleep(0.1)
-        variable_name = "col" + str(N)
         if Characters[g_index][key] == character[key]:
             color = "green"
         if key in ["Elemento", "Género", "Invocador"]:
@@ -43,22 +41,22 @@ def CheckValues():
         if os.path.exists(image_path):
             with open(image_path, 'rb') as image_file:
                 image_data = base64.b64encode(image_file.read()).decode()
-            st.session_state["images"].append((f"""
+            st.session_state["images"].append(f"""
             <div style='background-color:{color}; padding: 10px; border-radius: 10px;'>
                 <img src="data:image/png;base64,{image_data}" style="width: {size};" />
-            </div> """,))
-    for img in st.session_state["images"]:
-        with globals()[variable_name]:
-            st.markdown(img[0], unsafe_allow_html=True)
-        variable_name = "col" + str(N)
-        if N == 8:
-            N = 0
-        N += 1
+            </div>""")
+    
+    num_cols = 7
+    rows = [st.columns(num_cols, gap="medium") for _ in range((len(st.session_state["images"]) + num_cols - 1) // num_cols)]
+    
+    for idx, img in enumerate(st.session_state["images"]):
+        row = rows[idx // num_cols]
+        with row[idx % num_cols]:
+            st.markdown(img, unsafe_allow_html=True)
 
 # CSS para mejorar la apariencia con fondo oscuro y una imagen de fondo difuminada
 st.markdown(f"""
     <style>
-        }}
         [data-testid="stAppViewContainer"] > .main {{
             background: rgba(51, 51, 51, 0.8);
             padding: 20px;
@@ -91,8 +89,8 @@ st.markdown(f"""
 
 st.image("assets/Inazumadle.png", caption=None, width=None, use_column_width="always", clamp=False, channels="RGB", output_format="PNG")
 guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
-col1, col2, col3, col4, col5, col6, col7 = st.columns(7, gap="medium")
-if guess != None:
+
+if guess:
     g_index = CharacterRef.index(guess)
     if guess == character["Nombre"]:
         CheckValues()
