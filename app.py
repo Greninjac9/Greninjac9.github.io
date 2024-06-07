@@ -50,7 +50,6 @@ def CheckValues():
 # CSS para mejorar la apariencia con fondo oscuro y una imagen de fondo difuminada
 st.markdown(f"""
     <style>
-    <Body background=”assets/Background.png">
         }}
         [data-testid="stAppViewContainer"] > .main {{
             background: rgba(51, 51, 51, 0.8);
