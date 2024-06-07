@@ -23,12 +23,15 @@ if "Tries" not in st.session_state:
     st.session_state["Tries"] = 6
 if "key" not in st.session_state:
     st.session_state["key"] = 1
+if "rows" not in st.session_state:
+    st.session_state["rows"] = []
 
 character = st.session_state["character"]
 Correct = False
 
 # Función para verificar los valores y mostrar el resultado
 def CheckValues():
+    current_row = []
     for N, key in enumerate(character.keys(), start=1):
         color = "red"
         size = "100%"
@@ -41,20 +44,19 @@ def CheckValues():
         if os.path.exists(image_path):
             with open(image_path, 'rb') as image_file:
                 image_data = base64.b64encode(image_file.read()).decode()
-            st.session_state["images"].append(f"""
+            current_row.append(f"""
             <div style='background-color:{color}; padding: 10px; margin-bottom: 10px; border-radius: 10px;'>
                 <img src="data:image/png;base64,{image_data}" style="width: {size};" />
             </div>""")
     
-    num_cols = 7
-    rows = [st.columns(num_cols, gap="medium") for _ in range((len(st.session_state["images"]) + num_cols - 1) // num_cols)]
+    st.session_state["rows"].append(current_row)
     
-    for idx, img in enumerate(st.session_state["images"]):
-        row = rows[idx // num_cols]
-        with row[idx % num_cols]:
-            st.markdown(img, unsafe_allow_html=True)
-        if (idx + 1) % num_cols == 0:
-            st.divider()
+    for row in st.session_state["rows"]:
+        cols = st.columns(len(row))
+        for idx, img in enumerate(row):
+            with cols[idx]:
+                st.markdown(img, unsafe_allow_html=True)
+        st.divider()
 
 # CSS para mejorar la apariencia con fondo oscuro y una imagen de fondo difuminada
 st.markdown(f"""
