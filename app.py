@@ -15,12 +15,15 @@ st.set_page_config(
 IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
 
 Tries = 6
+key = 1
 
 # Escoger un personaje aleatorio al inicio de la sesión
 if "character" not in st.session_state:
     st.session_state["character"] = random.choice(Characters)
 if "tries" not in st.session_state:
     st.session_state["tries"] = Tries
+if "key" not in st.session_state:
+    st.session_state["key"] = key
 
 character = st.session_state["character"]
 Correct = False
@@ -100,6 +103,7 @@ if guess != None:
         st.markdown("<div class='result incorrect'>Intentos restantes: " + str(Tries) + "</div>", unsafe_allow_html=True)
         CheckValues()
         Tries -= 1
+        key += 1
 if Tries == 0:
         st.markdown("<div class='result incorrect'>Te has quedado sin intentos... El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
         st.markdown("<div class='remaining'>¡Recarga la página para volver a jugar!</div></div>", unsafe_allow_html=True)
