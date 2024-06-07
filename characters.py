@@ -9,6 +9,12 @@ Characters = [
         "EQUIPO": "RAIMON (GO)"
     },
     {
+        "Nombre": "ALAN MASTER", "Curso": "1º",
+        "Elemento": "Aire", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "NEO JAPÓN"
+    },
+    {
         "Nombre": "ALFA", "Curso": "Por_Definir",
         "Elemento": "Fuego", "Posición": "DL",
         "Género": "M", "Invocador": "EG_ARM",
@@ -425,6 +431,12 @@ Characters = [
         "EQUIPO": "EQUIPO FEMENINO"
     },
     {
+        "Nombre": "STEVE GRIM", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON"
+    },
+    {
         "Nombre": "SUE HARTLAND", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "F", "Invocador": "EG_N",
@@ -513,7 +525,7 @@ Characters = [
 
 CharacterRef = [
     ### A ###
-    'AITOR CAZADOR', 'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 
+    'AITOR CAZADOR', 'ALAN MASTER', 'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 
     ### B ### 
     'BAI LONG', 'BAI LONG (CS)', 'BELLATRIX', 'BETA', 
     'BRIAR BLOOMHURST', 'BYRON LOVE', 
@@ -550,7 +562,7 @@ CharacterRef = [
     'RAY DARK', 'RICCARDO DI RIGO (CS)', 
     ### S ###
     'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
-    'SILVIA WOODS', 'SUE HARTLAND', 
+    'STEVE', 'SILVIA WOODS', 'SUE HARTLAND', 
     ### T ###
     'TEZCAT', 'TOD IRONSIDE', 'TORI', 'TYLER MURDOCK', 
     ### V ###
