@@ -51,7 +51,7 @@ def CheckValues():
         with globals()[variable_name]:
             st.markdown(img[0], unsafe_allow_html=True)
         variable_name = "col" + str(N)
-        if N == 7:
+        if N == 8:
             N = 0
         N += 1
 
