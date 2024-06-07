@@ -9,7 +9,7 @@ st.set_page_config(
     page_title="Inazumadle",
     page_icon="⚡",
     layout="centered"
-)
+    )
 
 # Define el directorio de las imágenes
 IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
@@ -18,6 +18,7 @@ IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
 if "character" not in st.session_state:
     st.session_state["character"] = random.choice(Characters)
 
+character = st.session_state["character"]
 character = st.session_state["character"]
 Correct = False
 key = 1
@@ -47,18 +48,15 @@ def CheckValues():
         N += 1
     st.divider()
 
-# CSS para mejorar la apariencia con fondo oscuro y una imagen de fondo difuminada
+# CSS para mejorar la apariencia con fondo oscuro
 st.markdown("""
     <style>
         body {
-            background: url('assets/Background.png') no-repeat center center fixed;
-            background-size: cover;
-            -webkit-backdrop-filter: blur(10px); /* Safari 9+ */
-            backdrop-filter: blur(10px); /* Opera */
+            background-color: #1e1e1e;
             color: #f5f5f5;
         }
         .main {
-            background-color: rgba(51, 51, 51, 0.8);
+            background-color: #333;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
