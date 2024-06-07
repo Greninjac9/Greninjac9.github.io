@@ -16,10 +16,13 @@ IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
 
 Tries = 6
 key = 1
+images = []
 
 # Escoger un personaje aleatorio al inicio de la sesión
 if "character" not in st.session_state:
     st.session_state["character"] = random.choice(Characters)
+if "images" not in st.session_state:
+    st.session_state["images"] = images
 
 character = st.session_state["character"]
 Correct = False
@@ -33,8 +36,7 @@ def CheckValues():
         size = "100%"
         time.sleep(0.1)
         variable_name = "col" + str(N)
-        with globals()[variable_name]:
-            if Characters[g_index][key] == character[key]:
+        if Characters[g_index][key] == character[key]:
                 color = "green"
             if key in ["Elemento", "Género","Invocador"]:
                 size = "65%"
@@ -42,12 +44,18 @@ def CheckValues():
             if os.path.exists(image_path):
                 with open(image_path, 'rb') as image_file:
                     image_data = base64.b64encode(image_file.read()).decode()
-                st.markdown(f"""
+                images.append((f"""
                 <div style='background-color:{color}; padding: 10px; border-radius: 10px;'>
                     <img src="data:image/png;base64,{image_data}" style="width: {size};" />
                 </div>
-                """, unsafe_allow_html=True)
-        N += 1
+                """, unsafe_allow_html=True))
+        for k in range(len(images)):
+            with globals()[variable_name]:
+                st.markdown(images[k])
+            variable_name = "col" + str(N)
+            if N == 7:
+                N = 0
+            N += 1
     st.divider()
 
 # CSS para mejorar la apariencia con fondo oscuro y una imagen de fondo difuminada
