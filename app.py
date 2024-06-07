@@ -25,6 +25,10 @@ if "key" not in st.session_state:
     st.session_state["key"] = 1
 if "checked" not in st.session_state:
     st.session_state["checked"] = []
+if "CharacterRef" not in st.session_state:
+    st.session_state["CharacterRef"] = CharacterRef.copy()
+if "Characters" not in st.session_state:
+    st.session_state["Characters"] = Characters.copy()
 
 character = st.session_state["character"]
 Correct = False
@@ -32,12 +36,12 @@ Correct = False
 # Función para verificar los valores y mostrar el resultado
 def CheckValues():
     for N, key in enumerate(character.keys(), start=1):
-        if Characters[g_index][key] == character[key]:
+        if st.session_state["Characters"][g_index][key] == character[key]:
             color = "green"
         else:
             color = "red"
         size = "100%" if key not in ["Elemento", "Género", "Invocador"] else "65%"
-        image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
+        image_path = os.path.join(IMAGE_DIR, f"{st.session_state['Characters'][g_index][key]}.png")
         if os.path.exists(image_path):
             with open(image_path, 'rb') as image_file:
                 image_data = base64.b64encode(image_file.read()).decode()
@@ -58,7 +62,6 @@ def CheckValues():
                 row = rows[idx // num_cols]
                 with row[idx % num_cols]:
                     st.markdown(img, unsafe_allow_html=True)
-            st.divider()
 
 # CSS para mejorar la apariencia con fondo oscuro y una imagen de fondo difuminada
 st.markdown(f"""
@@ -94,20 +97,25 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 st.image("assets/Inazumadle.png", caption=None, width=None, use_column_width="always", clamp=False, channels="RGB", output_format="PNG")
-guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=st.session_state["key"], label_visibility="collapsed")
+guess = st.selectbox("Personajes", st.session_state["CharacterRef"], index=None, placeholder="¡Adivina un personaje!", key=st.session_state["key"], label_visibility="collapsed")
 
-g_index = CharacterRef.index(guess)
-if guess == character["Nombre"]:
-    CheckValues()
-    Correct = True
-    st.markdown("<div class='result correct'>¡Correcto! El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
-    st.markdown("</div>", unsafe_allow_html=True)
-    st.markdown("<div class='remaining'>¡Recarga la página para volver a jugar!</div></div>", unsafe_allow_html=True)
-else:
-    st.session_state["Tries"] -= 1
-    st.markdown("<div class='result incorrect'>Intentos restantes: " + str(st.session_state["Tries"]) + "</div>", unsafe_allow_html=True)
-    CheckValues()
-    st.session_state["key"] += 1
+if guess:
+    g_index = st.session_state["CharacterRef"].index(guess)
+    if guess == character["Nombre"]:
+        CheckValues()
+        Correct = True
+        st.markdown("<div class='result correct'>¡Correcto! El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
+        st.markdown("</div>", unsafe_allow_html=True)
+        st.markdown("<div class='remaining'>¡Recarga la página para volver a jugar!</div></div>", unsafe_allow_html=True)
+    else:
+        st.session_state["Tries"] -= 1
+        st.markdown("<div class='result incorrect'>Intentos restantes: " + str(st.session_state["Tries"]) + "</div>", unsafe_allow_html=True)
+        CheckValues()
+        st.session_state["key"] += 1
+
+    # Eliminar personaje de las listas
+    st.session_state["CharacterRef"].pop(g_index)
+    st.session_state["Characters"].pop(g_index)
 
 if st.session_state["Tries"] == 0 and not Correct:
     st.markdown("<div class='result incorrect'>Te has quedado sin intentos... El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
