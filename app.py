@@ -96,19 +96,18 @@ st.markdown(f"""
 st.image("assets/Inazumadle.png", caption=None, width=None, use_column_width="always", clamp=False, channels="RGB", output_format="PNG")
 guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=st.session_state["key"], label_visibility="collapsed")
 
-if guess:
-    g_index = CharacterRef.index(guess)
-    if guess == character["Nombre"]:
-        CheckValues()
-        Correct = True
-        st.markdown("<div class='result correct'>¡Correcto! El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
-        st.markdown("</div>", unsafe_allow_html=True)
-        st.markdown("<div class='remaining'>¡Recarga la página para volver a jugar!</div></div>", unsafe_allow_html=True)
-    else:
-        st.session_state["Tries"] -= 1
-        st.markdown("<div class='result incorrect'>Intentos restantes: " + str(st.session_state["Tries"]) + "</div>", unsafe_allow_html=True)
-        CheckValues()
-        st.session_state["key"] += 1
+g_index = CharacterRef.index(guess)
+if guess == character["Nombre"]:
+    CheckValues()
+    Correct = True
+    st.markdown("<div class='result correct'>¡Correcto! El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
+    st.markdown("</div>", unsafe_allow_html=True)
+    st.markdown("<div class='remaining'>¡Recarga la página para volver a jugar!</div></div>", unsafe_allow_html=True)
+else:
+    st.session_state["Tries"] -= 1
+    st.markdown("<div class='result incorrect'>Intentos restantes: " + str(st.session_state["Tries"]) + "</div>", unsafe_allow_html=True)
+    CheckValues()
+    st.session_state["key"] += 1
 
 if st.session_state["Tries"] == 0 and not Correct:
     st.markdown("<div class='result incorrect'>Te has quedado sin intentos... El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
