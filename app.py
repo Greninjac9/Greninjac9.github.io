@@ -47,8 +47,7 @@ def CheckValues():
             images.append((f"""
             <div style='background-color:{color}; padding: 10px; border-radius: 10px;'>
                 <img src="data:image/png;base64,{image_data}" style="width: {size};" />
-            </div>
-            """, unsafe_allow_html=True))
+            </div> """, unsafe_allow_html=True))
         for k in range(len(images)):
             with globals()[variable_name]:
                 st.write(images[k])
