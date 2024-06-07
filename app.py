@@ -23,6 +23,8 @@ if "Tries" not in st.session_state:
     st.session_state["Tries"] = 6
 if "key" not in st.session_state:
     st.session_state["key"] = 1
+if "checked" not in st.session_state:
+    st.session_state["checked"] = []
 
 character = st.session_state["character"]
 Correct = False
@@ -30,29 +32,33 @@ Correct = False
 # Función para verificar los valores y mostrar el resultado
 def CheckValues():
     for N, key in enumerate(character.keys(), start=1):
-        color = "red"
-        size = "100%"
-        time.sleep(0.1)
         if Characters[g_index][key] == character[key]:
             color = "green"
-        if key in ["Elemento", "Género", "Invocador"]:
-            size = "65%"
+        else:
+            color = "red"
+        size = "100%" if key not in ["Elemento", "Género", "Invocador"] else "65%"
         image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
         if os.path.exists(image_path):
             with open(image_path, 'rb') as image_file:
                 image_data = base64.b64encode(image_file.read()).decode()
-            st.session_state["images"].append(f"""
-            <div style='background-color:{color}; padding: 10px; margin-bottom: 10px; border-radius: 10px;'>
+            image_html = f"""
+            <div style='background-color:{color}; padding: 10px; border-radius: 10px;'>
                 <img src="data:image/png;base64,{image_data}" style="width: {size};" />
-            </div>""")
+            </div>"""
+            st.session_state["checked"].append((image_html, key))
     
-    num_cols = 7
-    rows = [st.columns(num_cols, gap="medium") for _ in range((len(st.session_state["images"]) + num_cols - 1) // num_cols)]
-    
-    for idx, img in enumerate(st.session_state["images"]):
-        row = rows[idx // num_cols]
-        with row[idx % num_cols]:
-            st.markdown(img, unsafe_allow_html=True)
+    # Mostrar las imágenes de forma persistente
+    unique_keys = list(set([key for _, key in st.session_state["checked"]]))
+    for unique_key in unique_keys:
+        filtered_images = [img for img, key in st.session_state["checked"] if key == unique_key]
+        if filtered_images:
+            num_cols = 7
+            rows = [st.columns(num_cols, gap="medium") for _ in range((len(filtered_images) + num_cols - 1) // num_cols)]
+            for idx, img in enumerate(filtered_images):
+                row = rows[idx // num_cols]
+                with row[idx % num_cols]:
+                    st.markdown(img, unsafe_allow_html=True)
+            st.divider()
 
 # CSS para mejorar la apariencia con fondo oscuro y una imagen de fondo difuminada
 st.markdown(f"""
