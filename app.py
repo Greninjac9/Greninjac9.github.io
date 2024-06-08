@@ -15,7 +15,7 @@ IMAGE_DIR = "assets/images"
 
 # Escoger un personaje aleatorio al inicio de la sesión
 if "character" not in st.session_state:
-    st.session_state["character"] = random.choice(Characters)
+    st.session_state["character"] = Characters[4]
 
 character = st.session_state["character"]
 Correct = False
