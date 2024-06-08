@@ -30,10 +30,14 @@ def CheckValues():
         time.sleep(0.1)
         variable_name = "col" + str(N)
         with globals()[variable_name]:
+            if N == 1:
+                if (Characters[g_index][key].split())[1] == (character[key].split())[1] and (Characters[g_index][key].split())[2] == (character[key].split())[2]:
+                    color = "yellow"
+            elif N == 7:
+                if (haracter[key].split())[1] == "RAIMON" and (Characters[g_index][key].split())[1] == "RAIMON":
+                    color = "yellow"
             if Characters[g_index][key] == character[key]:
                 color = "green"
-            if Characters[g_index][key] == "Nombre":
-                color = "yellow"
             if key in ["Elemento", "Género","Invocador"]:
                 size = "65%"
             image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
