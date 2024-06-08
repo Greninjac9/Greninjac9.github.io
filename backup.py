@@ -9,10 +9,9 @@ st.set_page_config(
     page_title="Inazumadle",
     page_icon="⚡",
     layout="centered"
-)
+    )
 
-# Define el directorio de las imágenes
-IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
+IMAGE_DIR = "assets/images" 
 
 # Escoger un personaje aleatorio al inicio de la sesión
 if "character" not in st.session_state:
@@ -31,6 +30,12 @@ def CheckValues():
         time.sleep(0.1)
         variable_name = "col" + str(N)
         with globals()[variable_name]:
+            if N == 1:
+                if (Characters[g_index][key].split())[1] == (character[key].split())[1] and (Characters[g_index][key].split())[2] == (character[key].split())[2]:
+                    color = "yellow"
+            elif N == 7:
+                if (haracter[key].split())[1] == "RAIMON" and (Characters[g_index][key].split())[1] == "RAIMON":
+                    color = "yellow"
             if Characters[g_index][key] == character[key]:
                 color = "green"
             if key in ["Elemento", "Género","Invocador"]:
@@ -47,37 +52,39 @@ def CheckValues():
         N += 1
     st.divider()
 
-# CSS para mejorar la apariencia con fondo oscuro y una imagen de fondo difuminada
-st.markdown(f"""
+# CSS para mejorar la apariencia con fondo oscuro
+st.markdown("""
     <style>
-        }}
-        [data-testid="stAppViewContainer"] > .main {{
-            background: rgba(51, 51, 51, 0.8);
+        body {
+            background-color: #1e1e1e;
+            color: #f5f5f5;
+        }
+        .main {
+            background-color: #333;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-            backdrop-filter: blur(10px); /* Aplica el efecto de difuminado */
-        }}
-        .title {{
+        }
+        .title {
             font-size: 24px;
             margin-bottom: 20px;
             color: #f5f5f5;
-        }}
-        .result {{
+        }
+        .result {
             margin-top: 20px;
             font-size: 18px;
-        }}
-        .correct {{
+        }
+        .correct {
             color: #4caf50;
-        }}
-        .incorrect {{
+        }
+        .incorrect {
             color: #f44336;
-        }}
-        .remaining {{
+        }
+        .remaining {
             margin-top: 10px;
             color: #9e9e9e;
-        }}
+        }
     </style>
 """, unsafe_allow_html=True)
 
