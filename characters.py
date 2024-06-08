@@ -21,6 +21,12 @@ Characters = [
         "EQUIPO": "PROTOCOLO OMEGA"
     },
     {
+        "Nombre": "BYRON LOVE (APHRODITE)", "Curso": "2º",
+        "Elemento": "Bosque", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ZEUS"
+    },
+    {
         "Nombre": "ARION SHERWIND (ARIONS)", "Curso": "1º",
         "Elemento": "Aire", "Posición": "MD",
         "Género": "M", "Invocador": "EG_Y",
@@ -72,10 +78,16 @@ Characters = [
         "EQUIPO": "SOUTH CIRRUS"
     },
     {
+        "Nombre": "BRYCE WITHINGALE", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "DRAGONES DE FUEGO"
+    },
+    {
         "Nombre": "BYRON LOVE", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
-        "EQUIPO": "ZEUS"
+        "EQUIPO": "DRAGONES DE FUEGO"
     },
     
     ### C ###
@@ -97,6 +109,12 @@ Characters = [
         "Elemento": "Aire", "Posición": "MD",
         "Género": "F", "Invocador": "EG_N",
         "EQUIPO": "EQUIPO FEMENINO"
+    },
+    {
+        "Nombre": "CLAUDE BEACONS", "Curso": "2º",
+        "Elemento": "Fuego", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "DRAGONES DE FUEGO"
     },
     
     ### D ###
@@ -187,6 +205,12 @@ Characters = [
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "PROTOCOLO OMEGA"
+    },
+    {
+        "Nombre": "BRYCE WITHINGALE (GAZELLE)", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ACADEMIA ALIUS (CAOS)"
     },
     {
         "Nombre": "GOLDIE LEMMON (CS)", "Curso": "1º",
@@ -458,6 +482,12 @@ Characters = [
         "EQUIPO": "RAIMON"
     },
     {
+        "Nombre": "CLAUDE BEACONS (TORCH)", "Curso": "2º",
+        "Elemento": "Fuego", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ACADEMIA ALIUS (CAOS)"
+    },
+    {
         "Nombre": "TORI", "Curso": "2º",
         "Elemento": "Aire", "Posición": "MD",
         "Género": "F", "Invocador": "EG_N",
@@ -525,12 +555,12 @@ Characters = [
 
 CharacterRef = [
     ### A ###
-    'AITOR CAZADOR', 'ALAN MASTER', 'ALFA', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 
+    'AITOR CAZADOR', 'ALAN MASTER', 'ALFA', 'APHRODITE', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 
     ### B ### 
     'BAI LONG', 'BAI LONG (CS)', 'BELLATRIX', 'BETA', 
-    'BRIAR BLOOMHURST', 'BYRON LOVE', 
+    'BRIAR BLOOMHURST', 'BRYCE WITHINGALE', 'BYRON LOVE', 
     ### C ###
-    'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 
+    'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'CLAUDE BEACONS',
     ### D ###
     'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 
     'DAVID SAMFORD (REDUX)', 'DESTIN BILLOWS','DVALIN', 
@@ -539,7 +569,7 @@ CharacterRef = [
     ### F ###
     'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 
     ### G ###
-    'GABRIEL GARCÍA', 'GABRIEL GARCÍA (CS)', 'GAMMA', 'GOLDIE LEMMON (CS)', 
+    'GABRIEL GARCÍA', 'GABRIEL GARCÍA (CS)', 'GAMMA', 'GAZELLE', 'GOLDIE LEMMON (CS)', 
     ### H ###
     'HECTOR HELIO', 'HOTEL',
     'HURLEY KANE', 
@@ -564,7 +594,7 @@ CharacterRef = [
     'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
     'SILVIA WOODS', 'STEVE GRIM', 'SUE HARTLAND', 
     ### T ###
-    'TEZCAT', 'TOD IRONSIDE', 'TORI', 'TYLER MURDOCK', 
+    'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TYLER MURDOCK', 
     ### V ###
     'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 
     ### W ###
