@@ -57,7 +57,7 @@ Characters = [
         "Nombre": "BELLATRIX", "Curso": "2º",
         "Elemento": "Aire", "Posición": "MD",
         "Género": "F", "Invocador": "EG_N",
-        "EQUIPO": "ACADEMIA ALIUS"
+        "EQUIPO": "ACADEMIA ALIUS (GENESIS)"
     },
     {
         "Nombre": "BETA", "Curso": "Por_Definir",
@@ -90,7 +90,7 @@ Characters = [
         "Nombre": "CALEB STONEWALL (REDUX)", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "MD",
         "Género": "M", "Invocador": "EG_N",
-        "EQUIPO": "ROYAL ACADEMY REDUX"
+        "EQUIPO": "ACADEMIA ALIUS (REDUX)"
     },
     {
         "Nombre": "CELIA HILLS", "Curso": "1º",
@@ -123,7 +123,7 @@ Characters = [
         "Nombre": "DAVID SAMFORD (REDUX)", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
-        "EQUIPO": "ROYAL ACADEMY REDUX"
+        "EQUIPO": "ACADEMIA ALIUS (REDUX)"
     },
     {
         "Nombre": "DESTIN BILLOWS", "Curso": "1º",
@@ -135,7 +135,7 @@ Characters = [
         "Nombre": "DAVE QUAGMIRE (DVALIN)", "Curso": "3º",
         "Elemento": "Bosque", "Posición": "PR",
         "Género": "M", "Invocador": "EG_N",
-        "EQUIPO": "ACADEMIA ALIUS"
+        "EQUIPO": "ACADEMIA ALIUS (EPSILON)"
     },
     
     ### E ###
@@ -230,7 +230,7 @@ Characters = [
         "Nombre": "JORDAN GREENWAY (JANUS)", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "MD",
         "Género": "M", "Invocador": "EG_N", 
-        "EQUIPO": "ACADEMIA ALIUS"
+        "EQUIPO": "ACADEMIA ALIUS (TORMENTA DE GEMINIS)"
     },
     {
         "Nombre": "JEAN-PIERRE LAPAN", "Curso": "1º",
@@ -260,7 +260,7 @@ Characters = [
         "Nombre": "JOSEPH KING (REDUX)", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "PR",
         "Género": "M", "Invocador": "EG_N",
-        "EQUIPO": "ROYAL ACADEMY REDUX"
+        "EQUIPO": "ACADEMIA ALIUS (REDUX)"
     },
     {
         "Nombre": "JORDAN GREENWAY", "Curso": "2º",
@@ -377,7 +377,7 @@ Characters = [
         "Nombre": "RAY DARK", "Curso": "ADULTO",
         "Elemento": "Montaña", "Posición": "DT",
         "Género": "M", "Invocador": "EG_N",
-        "EQUIPO": "ROYAL ACADEMY REDUX"
+        "EQUIPO": "ACADEMIA ALIUS (REDUX)"
     },
     {
         "Nombre": "RICCARDO DI RIGO (CS)", "Curso": "2º",
@@ -508,7 +508,7 @@ Characters = [
         "Nombre": "XAVIER FOSTER (XENE)", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
-        "EQUIPO": "ACADEMIA ALIUS"
+        "EQUIPO": "ACADEMIA ALIUS (GENESIS)"
     },
 
     ### Y ###
