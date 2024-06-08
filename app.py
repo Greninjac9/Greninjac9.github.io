@@ -11,14 +11,12 @@ st.set_page_config(
     layout="centered"
     )
 
-# Define el directorio de las imágenes
-IMAGE_DIR = "assets/images"  # Ajusta el directorio según tu estructura
+IMAGE_DIR = "assets/images" 
 
 # Escoger un personaje aleatorio al inicio de la sesión
 if "character" not in st.session_state:
     st.session_state["character"] = random.choice(Characters)
 
-character = st.session_state["character"]
 character = st.session_state["character"]
 Correct = False
 key = 1
@@ -34,6 +32,8 @@ def CheckValues():
         with globals()[variable_name]:
             if Characters[g_index][key] == character[key]:
                 color = "green"
+            if Characters[g_index][key] == "Nombre":
+                color = "yellow"
             if key in ["Elemento", "Género","Invocador"]:
                 size = "65%"
             image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
