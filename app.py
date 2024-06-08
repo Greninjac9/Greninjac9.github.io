@@ -36,6 +36,8 @@ def CheckValues(g_index):
                 color = "#FFFF00"
             elif N == 7 and Split_Key[0] == "RAIMON" and Split_char[0] == "RAIMON":
                 color = "#FFFF00"
+            elif N == 7 and Split_Key[0] == "ACADEMIA" and Split_char[0] == "ACADEMIA" and Split_Key[1] == "ALIUS" and Split_char[1] == "ALIUS":
+                color = "#FFFF00"
         if Characters[g_index][key] == character[key]:
             color = "green"
         if key in ["Elemento", "Género", "Invocador"]:
