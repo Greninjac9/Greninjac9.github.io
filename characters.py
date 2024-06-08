@@ -132,7 +132,7 @@ Characters = [
         "EQUIPO": "SOUTH CIRRUS"
     },
     {
-        "Nombre": "DVALIN", "Curso": "3º",
+        "Nombre": "DAVE QUAGMIRE (DVALIN)", "Curso": "3º",
         "Elemento": "Bosque", "Posición": "PR",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ACADEMIA ALIUS"
@@ -227,7 +227,7 @@ Characters = [
         "EQUIPO": "RAIMON"
     },
     {
-        "Nombre": "JANUS", "Curso": "2º",
+        "Nombre": "JORDAN GREENWAY (JANUS)", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "MD",
         "Género": "M", "Invocador": "EG_N", 
         "EQUIPO": "ACADEMIA ALIUS"
@@ -505,7 +505,7 @@ Characters = [
         "EQUIPO": "INAZUMA JAPON"
     },
     {
-        "Nombre": "XENE", "Curso": "2º",
+        "Nombre": "XAVIER FOSTER (XENE)", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ACADEMIA ALIUS"
