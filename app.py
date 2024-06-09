@@ -32,7 +32,7 @@ def CheckValues(g_index):
         if N == 1 or N == 7 or N == 4:
             Split_Key = Characters[g_index][key].split()
             Split_char = character[key].split()
-            if N == 1 and Split_Key[0] == Split_char[0] and Split_Key[1] == Split_char[1]:
+            if N == 1 and Split_Key[:2] == Split_char[:2]:
                 color = "#FFBF00"
             elif N == 7:
                 if Split_Key[0] == "RAIMON" and Split_char[0] == "RAIMON":
