@@ -361,7 +361,7 @@ Characters = [
         "EQUIPO": "PROTOCOLO OMEGA"
     },
     {
-        "Nombre": "MISTER D", "Curso": "ADULTO",
+        "Nombre": "RAY DARK (MISTER D)", "Curso": "ADULTO",
         "Elemento": "Montaña", "Posición": "DT",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ORFEO"
