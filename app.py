@@ -37,7 +37,7 @@ def CheckValues(g_index):
             elif N == 7:
                 if Split_Key[0] == "RAIMON" and Split_char[0] == "RAIMON":
                     color = "#FFBF00"
-                elif " ".join(Split_Key[:2]) == "ACADEMIA ALIUS" and " ".join(Split_char[:2]) == "ACADEMIA ALIUS":
+                elif (" ".join(Split_Key[:2]) == "ACADEMIA ALIUS" and " ".join(Split_char[:2]) == "ACADEMIA ALIUS") or (" ".join(Split_Key[:2]) == "PROTOCOLO OMEGA" and " ".join(Split_char[:2]) == "PROTOCOLO OMEGA"):
                     color = "#FFBF00"
             elif N == 4:
                 Pos = ["DF", "LB"]
