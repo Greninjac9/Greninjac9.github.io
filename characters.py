@@ -411,6 +411,12 @@ Characters = [
         "Género": "F", "Invocador": "EG_N",
         "EQUIPO": "EQUIPO FEMENINO"
     },
+    {
+        "Nombre": "NIGEL AUGUST (NEPPTEN)", "Curso": "2º",
+        "Elemento": "Fuego", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ACADEMIA ALIUS (CAOS)"
+    },
 
     ### O ###
 
@@ -638,7 +644,7 @@ CharacterRef = [
     'MARK EVANS', 'MARK EVANS (II)', 'MARK EVANS (ADULTO)', 'MARK EVANS (ARIONS)', 'MARK EVANS (LEGENDARIO)', 
     'MAX', 'MECHAMARK', 'MICHEAL BALLZACK', 'MIKE', 'MISTER D', 
     ### N ###
-    'NATHAN SWIFT', 'NELLY RAIMON',
+    'NATHAN SWIFT', 'NELLY RAIMON', 'NEPPTEN',
     ### O ###
     ### P ###
     'PAOLO BIANCHI', 'PERCIVAL TRAVIS', 
