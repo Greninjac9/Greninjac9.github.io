@@ -103,7 +103,7 @@ for T in range(5, -1, -1):
         guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7, gap="medium")
     g_index = CharacterRef.index(guess)
-    if guess == character["Nombre"]:
+    if Characters[g_index]["Nombre"] == character["Nombre"]:
         CheckValues(g_index)
         Correct = True
         st.markdown("<div class='result correct'>¡Correcto! El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
