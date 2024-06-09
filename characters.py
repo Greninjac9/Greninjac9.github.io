@@ -349,6 +349,12 @@ Characters = [
         "EQUIPO": "RAIMON"
     },
     {
+        "Nombre": "MICHEAL BALLZACK", "Curso": "2º",
+        "Elemento": "Montaña", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON (GO)"
+    },
+    {
         "Nombre": "MIKE", "Curso": "Por_Definir",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -581,7 +587,7 @@ CharacterRef = [
     ### L ###
     ### M ###
     'MARK EVANS', 'MARK EVANS (II)', 'MARK EVANS (ADULTO)', 'MARK EVANS (ARIONS)', 'MARK EVANS (LEGENDARIO)', 
-    'MAX', 'MIKE', 'MISTER D', 
+    'MAX', 'MICHEAL BALLZACK', 'MIKE', 'MISTER D', 
     ### N ###
     'NATHAN SWIFT', 'NELLY RAIMON',
     ### O ###
