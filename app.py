@@ -29,15 +29,18 @@ def CheckValues(g_index):
         size = "100%"
         time.sleep(0.1)
         variable_name = "col" + str(N)
-        if N == 1 or N == 7:
+        if N == 1 or N == 7 or N == 3:
             Split_Key = Characters[g_index][key].split()
             Split_char = character[key].split()
-            if N == 1 and Split_Key[0] == Split_char[0]:
+            if N == 1 and Split_Key[0] == Split_char[0] and Split_Key[1] == Split_char[1]:
                 color = "#FFBF00"
-            elif N == 7 and Split_Key[0] == "RAIMON" and Split_char[0] == "RAIMON":
-                color = "#FFBF00"
-            elif N == 7 and Split_Key[0] == "ACADEMIA" and Split_char[0] == "ACADEMIA" and Split_Key[1] == "ALIUS" and Split_char[1] == "ALIUS":
-                color = "#FFFF00"
+            elif N == 7:
+                if Split_Key[0] == "RAIMON" and Split_char[0] == "RAIMON":
+                    color = "#FFBF00"
+                elif " ".join(Split_Key[:2]) == "ACADEMIA ALIUS" and " ".join(Split_char[:2]) == "ACADEMIA ALIUS":
+                    color = "#FFBF00"
+            elif N == 3:
+                if Characters[g_index][key] == "DF" and character[key] == "LB" or Characters[g_index][key] == "LB" and character[key] == "DF"
         if Characters[g_index][key] == character[key]:
             color = "green"
         if key in ["Elemento", "Género", "Invocador"]:
