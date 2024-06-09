@@ -461,6 +461,12 @@ Characters = [
         "EQUIPO": "RAIMON"
     },
     {
+        "Nombre": "SCOTT BANYAN", "Curso": "1º",
+        "Elemento": "Bosque", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON II"
+    },
+    {
         "Nombre": "SHAWN FROSTE", "Curso": "2º",
         "Elemento": "Aire", "Posición": "LB",
         "Género": "M", "Invocador": "EG_N",
@@ -491,7 +497,7 @@ Characters = [
         "EQUIPO": "RAIMON"
     },
     {
-        "Nombre": "SUEZETTE HARTLAND", "Curso": "2º",
+        "Nombre": "SUZETTE HARTLAND", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "F", "Invocador": "EG_N",
         "EQUIPO": "RAIMON II"
@@ -634,7 +640,7 @@ CharacterRef = [
     ### R ###
     'RAY DARK', 'RICCARDO DI RIGO (CS)', 
     ### S ###
-    'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
+    'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SCOTTY', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
     'SILVIA WOODS', 'STEVE GRIM', 'SUE', 
     ### T ###
     'TERRY ARCHIBALD', 'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TYLER MURDOCK', 
