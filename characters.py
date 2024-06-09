@@ -39,6 +39,12 @@ Characters = [
         "EQUIPO": "CHRONO STORM"
     },
     {
+        "Nombre": "RAY DARK (ASTERO BLACK)", "Curso": "ADULTO",
+        "Elemento": "Montaña", "Posición": "DT",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "EARTH ELEVEN"
+    },
+    {
         "Nombre": "AXEL BLAZE", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -561,7 +567,8 @@ Characters = [
 
 CharacterRef = [
     ### A ###
-    'AITOR CAZADOR', 'ALAN MASTER', 'ALFA', 'APHRODITE', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 'AXEL BLAZE', 
+    'AITOR CAZADOR', 'ALAN MASTER', 'ALFA', 'APHRODITE', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 
+    'ASTERO BLACK', 'AXEL BLAZE', 
     ### B ### 
     'BAI LONG', 'BAI LONG (CS)', 'BELLATRIX', 'BETA', 
     'BRIAR BLOOMHURST', 'BRYCE WITHINGALE', 'BYRON LOVE', 
