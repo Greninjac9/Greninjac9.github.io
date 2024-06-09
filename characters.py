@@ -90,6 +90,12 @@ Characters = [
         "EQUIPO": "DRAGONES DE FUEGO"
     },
     {
+        "Nombre": "BUDDY FURY", "Curso": "3º",
+        "Elemento": "Montaña", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_T",
+        "EQUIPO": "EARTH ELEVEN"
+    },
+    {
         "Nombre": "BYRON LOVE", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -173,6 +179,12 @@ Characters = [
 
     ### F ###
     
+    {
+        "Nombre": "FALCO FLASHMAN", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_T",
+        "EQUIPO": "EARTH ELEVEN"
+    },
     {
         "Nombre": "FEI RUNE", "Curso": "Por_Definir",
         "Elemento": "Bosque", "Posición": "DL",
@@ -306,7 +318,13 @@ Characters = [
     },
 
     ### K ###
-    
+
+    {
+        "Nombre": "KEENAN SHARPE", "Curso": "1º",
+        "Elemento": "Montaña", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_T",
+        "EQUIPO": "EARTH ELEVEN"
+    },
     {
         "Nombre": "KEVIN DRAGONFLY", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
@@ -480,7 +498,13 @@ Characters = [
     },
 
     ### T ###
-    
+
+    {
+        "Nombre": "TERRY ARCHIBALD", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "PR",
+        "Género": "M", "Invocador": "EG_T",
+        "EQUIPO": "EARTH ELEVEN"
+    },
     {
         "Nombre": "TEZCAT", "Curso": "1º",
         "Elemento": "Bosque", "Posición": "DL",
@@ -562,6 +586,12 @@ Characters = [
         "Elemento": "Montaña", "Posición": "DL",
         "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
+    },
+    {
+        "Nombre": "ZIPPY LERNER", "Curso": "1º",
+        "Elemento": "Aire", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_T",
+        "EQUIPO": "EARTH ELEVEN"
     }
 ]
 
@@ -571,7 +601,7 @@ CharacterRef = [
     'ASTERO BLACK', 'AXEL BLAZE', 
     ### B ### 
     'BAI LONG', 'BAI LONG (CS)', 'BELLATRIX', 'BETA', 
-    'BRIAR BLOOMHURST', 'BRYCE WITHINGALE', 'BYRON LOVE', 
+    'BRIAR BLOOMHURST', 'BRYCE WITHINGALE', 'BUDDY FURY', 'BYRON LOVE', 
     ### C ###
     'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'CLAUDE BEACONS',
     ### D ###
@@ -580,7 +610,7 @@ CharacterRef = [
     ### E ###
     'ERIK EAGLE', 
     ### F ###
-    'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 
+    'FALCO FLASHMAN', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 
     ### G ###
     'GABRIEL GARCÍA', 'GABRIEL GARCÍA (CS)', 'GAMMA', 'GAZELLE', 'GOLDIE LEMMON (CS)', 
     ### H ###
@@ -590,7 +620,7 @@ CharacterRef = [
     'JACK WALLSIDE', 'JANUS', 'JEAN-PIERRE LAPAN', 'JEAN-PIERRE LAPAN (CS)', 'JUDE SHARP', 
     'JOSEPH KING', 'JOSEPH KING (REDUX)', 'JORDAN GREENWAY', 'JULIETA', 
     ### K ###
-    'KEVIN DRAGONFLY',
+    'KEENAN SHARPE', 'KEVIN DRAGONFLY',
     ### L ###
     ### M ###
     'MARK EVANS', 'MARK EVANS (II)', 'MARK EVANS (ADULTO)', 'MARK EVANS (ARIONS)', 'MARK EVANS (LEGENDARIO)', 
@@ -607,7 +637,7 @@ CharacterRef = [
     'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
     'SILVIA WOODS', 'STEVE GRIM', 'SUE HARTLAND', 
     ### T ###
-    'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TYLER MURDOCK', 
+    'TERRY ARCHIBALD', 'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TYLER MURDOCK', 
     ### V ###
     'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 
     ### W ###
@@ -616,5 +646,5 @@ CharacterRef = [
     'XAVIER FOSTER', 'XENE', 
     ### Y ###
     ### Z ###
-    'ZANARK AVALONIC (CS)'
+    'ZANARK AVALONIC (CS)', 'ZIPPY LERNER'
 ]
