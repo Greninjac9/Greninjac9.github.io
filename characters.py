@@ -373,6 +373,12 @@ Characters = [
         "EQUIPO": "RAIMON"
     },
     {
+        "Nombre": "MARK EVANS (MECHAMARK)", "Curso": "Por_Definir",
+        "Elemento": "Montaña", "Posición": "PR",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "PROTOCOLO OMEGA (EL DORADO 02)"
+    },
+    {
         "Nombre": "MICHEAL BALLZACK", "Curso": "2º",
         "Elemento": "Montaña", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -630,7 +636,7 @@ CharacterRef = [
     ### L ###
     ### M ###
     'MARK EVANS', 'MARK EVANS (II)', 'MARK EVANS (ADULTO)', 'MARK EVANS (ARIONS)', 'MARK EVANS (LEGENDARIO)', 
-    'MAX', 'MICHEAL BALLZACK', 'MIKE', 'MISTER D', 
+    'MAX', 'MECHAMARK', 'MICHEAL BALLZACK', 'MIKE', 'MISTER D', 
     ### N ###
     'NATHAN SWIFT', 'NELLY RAIMON',
     ### O ###
