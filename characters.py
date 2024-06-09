@@ -367,7 +367,7 @@ Characters = [
         "EQUIPO": "INAZUMA JAPON LEGENDARIO"
     },
     {
-        "Nombre": "MAX", "Curso": "2º",
+        "Nombre": "MAXWELL CARSON", "Curso": "2º",
         "Elemento": "Aire", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON"
@@ -491,7 +491,7 @@ Characters = [
         "EQUIPO": "RAIMON"
     },
     {
-        "Nombre": "SUE HARTLAND", "Curso": "2º",
+        "Nombre": "SUEZETTE HARTLAND", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "F", "Invocador": "EG_N",
         "EQUIPO": "RAIMON II"
@@ -524,7 +524,7 @@ Characters = [
         "EQUIPO": "ACADEMIA ALIUS (CAOS)"
     },
     {
-        "Nombre": "TORI", "Curso": "2º",
+        "Nombre": "VICTORIA VANGUARD", "Curso": "2º",
         "Elemento": "Aire", "Posición": "MD",
         "Género": "F", "Invocador": "EG_N",
         "EQUIPO": "RAIMON II"
@@ -635,7 +635,7 @@ CharacterRef = [
     'RAY DARK', 'RICCARDO DI RIGO (CS)', 
     ### S ###
     'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
-    'SILVIA WOODS', 'STEVE GRIM', 'SUE HARTLAND', 
+    'SILVIA WOODS', 'STEVE GRIM', 'SUE', 
     ### T ###
     'TERRY ARCHIBALD', 'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TYLER MURDOCK', 
     ### V ###
