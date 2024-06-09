@@ -446,6 +446,12 @@ Characters = [
         "EQUIPO": "ACADEMIA ALIUS (REDUX)"
     },
     {
+        "Nombre": "RICCARDO DI RIGO", "Curso": "2º",
+        "Elemento": "Bosque", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "RAIMON (GO)"
+    },
+    {
         "Nombre": "RICCARDO DI RIGO (CS)", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "MD",
         "Género": "M", "Invocador": "EG_ARM",
@@ -557,7 +563,13 @@ Characters = [
     ### U ###
 
     ### V ###
-    
+
+    {
+        "Nombre": "VICTOR BLADE", "Curso": "1º",
+        "Elemento": "Fuego", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "RAIMON (GO)"
+    },
     {
         "Nombre": "VICTOR BLADE (CS)", "Curso": "1º",
         "Elemento": "Fuego", "Posición": "DL",
@@ -650,14 +662,14 @@ CharacterRef = [
     'PAOLO BIANCHI', 'PERCIVAL TRAVIS', 
     ### Q ###
     ### R ###
-    'RAY DARK', 'RICCARDO DI RIGO (CS)', 
+    'RAY DARK', 'RICCARDO DI RIGO', 'RICCARDO DI RIGO (CS)', 
     ### S ###
     'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SCOTTY', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
     'SILVIA WOODS', 'STEVE GRIM', 'SUE', 
     ### T ###
     'TERRY ARCHIBALD', 'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TYLER MURDOCK', 
     ### V ###
-    'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 
+    'VICTOR BLADE', 'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 
     ### W ###
     'WILLIAM GLASS',
     ### X ###
