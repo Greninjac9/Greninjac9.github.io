@@ -40,7 +40,8 @@ def CheckValues(g_index):
                 elif " ".join(Split_Key[:2]) == "ACADEMIA ALIUS" and " ".join(Split_char[:2]) == "ACADEMIA ALIUS":
                     color = "#FFBF00"
             elif N == 3:
-                if Characters[g_index][key] == "DF" and character[key] == "LB" or Characters[g_index][key] == "LB" and character[key] == "DF":
+                Pos = ["DF", "LB"]
+                if Characters[g_index][key] in Pos and character[key] in Pos:
                     color = "#FFBF00"
         if Characters[g_index][key] == character[key]:
             color = "green"
