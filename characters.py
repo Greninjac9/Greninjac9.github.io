@@ -18,7 +18,7 @@ Characters = [
         "Nombre": "ALFA", "Curso": "Por_Definir",
         "Elemento": "Fuego", "Posición": "DL",
         "Género": "M", "Invocador": "EG_ARM",
-        "EQUIPO": "PROTOCOLO OMEGA"
+        "EQUIPO": "PROTOCOLO OMEGA 1.0"
     },
     {
         "Nombre": "BYRON LOVE (APHRODITE)", "Curso": "2º",
@@ -75,7 +75,7 @@ Characters = [
         "Nombre": "BETA", "Curso": "Por_Definir",
         "Elemento": "Aire", "Posición": "DL",
         "Género": "F", "Invocador": "EG_ARM",
-        "EQUIPO": "PROTOCOLO OMEGA"
+        "EQUIPO": "PROTOCOLO OMEGA 2.0"
     },
     {
         "Nombre": "BRIAR BLOOMHURST", "Curso": "2º",
@@ -222,7 +222,7 @@ Characters = [
         "Nombre": "GAMMA", "Curso": "Por_Definir",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_ARM",
-        "EQUIPO": "PROTOCOLO OMEGA"
+        "EQUIPO": "PROTOCOLO OMEGA 3.0"
     },
     {
         "Nombre": "BRYCE WITHINGALE (GAZELLE)", "Curso": "2º",
@@ -249,7 +249,7 @@ Characters = [
         "Nombre": "HOTEL", "Curso": "Por_Definir",
         "Elemento": "Montaña", "Posición": "PR",
         "Género": "M", "Invocador": "EG_Y",
-        "EQUIPO": "PROTOCOLO OMEGA"
+        "EQUIPO": "PROTOCOLO OMEGA 1.0"
     },
     {
         "Nombre": "HURLEY KANE", "Curso": "3º",
@@ -314,7 +314,7 @@ Characters = [
         "Nombre": "JULIETA", "Curso": "Por_Definir",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "F", "Invocador": "EG_N",
-        "EQUIPO": "PROTOCOLO OMEGA"
+        "EQUIPO": "PROTOCOLO OMEGA 1.0"
     },
 
     ### K ###
@@ -382,7 +382,7 @@ Characters = [
         "Nombre": "MIKE", "Curso": "Por_Definir",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
-        "EQUIPO": "PROTOCOLO OMEGA"
+        "EQUIPO": "PROTOCOLO OMEGA 1.0"
     },
     {
         "Nombre": "RAY DARK (MISTER D)", "Curso": "ADULTO",
