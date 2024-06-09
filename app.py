@@ -29,7 +29,7 @@ def CheckValues(g_index):
         size = "100%"
         time.sleep(0.1)
         variable_name = "col" + str(N)
-        if N == 1 or N == 7 or N == 3:
+        if N == 1 or N == 7 or N == 4:
             Split_Key = Characters[g_index][key].split()
             Split_char = character[key].split()
             if N == 1 and Split_Key[0] == Split_char[0] and Split_Key[1] == Split_char[1]:
@@ -39,7 +39,7 @@ def CheckValues(g_index):
                     color = "#FFBF00"
                 elif " ".join(Split_Key[:2]) == "ACADEMIA ALIUS" and " ".join(Split_char[:2]) == "ACADEMIA ALIUS":
                     color = "#FFBF00"
-            elif N == 3:
+            elif N == 4:
                 Pos = ["DF", "LB"]
                 if Characters[g_index][key] in Pos and character[key] in Pos:
                     color = "#FFBF00"
