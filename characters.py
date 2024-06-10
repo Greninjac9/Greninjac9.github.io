@@ -487,6 +487,12 @@ Characters = [
         "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
     },
+    {
+        "Nombre": "RYOMA NISHIKI (CS)", "Curso": "2º",
+        "Elemento": "Montaña", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_ARM",
+        "EQUIPO": "CHRONO STORM"
+    },
 
     ### S ###
     
@@ -537,6 +543,18 @@ Characters = [
         "Elemento": "Montaña", "Posición": "PR",
         "Género": "F", "Invocador": "EG_N",
         "EQUIPO": "EQUIPO FEMENINO"
+    },
+    {
+        "Nombre": "SOL DAYSTAR (CS)", "Curso": "1º",
+        "Elemento": "Fuego", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_ARM",
+        "EQUIPO": "CHRONO STORM"
+    },
+    {
+        "Nombre": "SOR (CS)", "Curso": "Por_Definir",
+        "Elemento": "Aire", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_ARM",
+        "EQUIPO": "CHRONO STORM"
     },
     {
         "Nombre": "STEVE GRIM", "Curso": "2º",
@@ -704,10 +722,10 @@ CharacterRef = [
     'PAOLO BIANCHI', 'PERCIVAL TRAVIS', 
     ### Q ###
     ### R ###
-    'RAY DARK', 'RICCARDO DI RIGO', 'RICCARDO DI RIGO (CS)', 
+    'RAY DARK', 'RICCARDO DI RIGO', 'RICCARDO DI RIGO (CS)', 'RYOMA NISHIKI (CS)', 
     ### S ###
     'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SCOTTY', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
-    'SILVIA WOODS', 'STEVE GRIM', 'SUE', 
+    'SILVIA WOODS', 'SOL DAYSTAR (CS)', 'SOR (CS)', 'STEVE GRIM', 'SUE', 
     ### T ###
     'TERRY ARCHIBALD', 'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TRINA VERDURE', 'TYLER MURDOCK', 
     ### V ###
