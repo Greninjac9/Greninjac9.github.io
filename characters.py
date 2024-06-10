@@ -78,6 +78,18 @@ Characters = [
         "EQUIPO": "PROTOCOLO OMEGA 2.0"
     },
     {
+        "Nombre": "BOBBY SHEARER", "Curso": "2º",
+        "Elemento": "Bosque", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON"
+    },
+    {
+        "Nombre": "BOBBY SHEARER (UNICORN)", "Curso": "2º",
+        "Elemento": "Bosque", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "UNICORN"
+    },
+    {
         "Nombre": "BRIAR BLOOMHURST", "Curso": "2º",
         "Elemento": "Montaña", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -175,6 +187,12 @@ Characters = [
         "Elemento": "Bosque", "Posición": "MD",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON"
+    },
+    {
+        "Nombre": "ERIK EAGLE (UNICORN)", "Curso": "2º",
+        "Elemento": "Bosque", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "UNICORN"
     },
 
     ### F ###
@@ -630,7 +648,7 @@ CharacterRef = [
     'AITOR CAZADOR', 'ALAN MASTER', 'ALFA', 'APHRODITE', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 
     'ASTERO BLACK', 'AXEL BLAZE', 
     ### B ### 
-    'BAI LONG', 'BAI LONG (CS)', 'BELLATRIX', 'BETA', 
+    'BAI LONG', 'BAI LONG (CS)', 'BELLATRIX', 'BETA', 'BOBBY SHEARER', 'BOBBY SHEARER (UNICORN),
     'BRIAR BLOOMHURST', 'BRYCE WITHINGALE', 'BUDDY FURY', 'BYRON LOVE', 
     ### C ###
     'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'CLAUDE BEACONS',
@@ -638,7 +656,7 @@ CharacterRef = [
     'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 
     'DAVID SAMFORD (REDUX)', 'DESTIN BILLOWS','DVALIN', 
     ### E ###
-    'ERIK EAGLE', 
+    'ERIK EAGLE', 'ERIK EAGLE (UNICORN)',
     ### F ###
     'FALCO FLASHMAN', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 
     ### G ###
