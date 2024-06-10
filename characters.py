@@ -682,7 +682,7 @@ CharacterRef = [
     ### E ###
     'ERIK EAGLE', 'ERIK EAGLE (UNICORN)',
     ### F ###
-    'FALCO FLASHMAN', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'FRANK FOREMAN'
+    'FALCO FLASHMAN', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'FRANK FOREMAN',
     ### G ###
     'GABRIEL GARCÍA', 'GABRIEL GARCÍA (CS)', 'GAMMA', 'GAZELLE', 'GOLDIE LEMMON (CS)', 
     ### H ###
