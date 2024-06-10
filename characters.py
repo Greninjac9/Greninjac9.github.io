@@ -135,6 +135,12 @@ Characters = [
         "EQUIPO": "EQUIPO FEMENINO"
     },
     {
+        "Nombre": "CERISE BLOSSOM", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "MD",
+        "Género": "F", "Invocador": "EG_T",
+        "EQUIPO": "EARTH ELEVEN"
+    },
+    {
         "Nombre": "CLAUDE BEACONS", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -221,7 +227,13 @@ Characters = [
         "Género": "F", "Invocador": "EG_ARM",
         "EQUIPO": "DESESPERDIDOS"
     },
-
+    {
+        "Nombre": "FRANK FOREMAN", "Curso": "2º",
+        "Elemento": "Fuego", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_T",
+        "EQUIPO": "EARTH ELEVEN"
+    },
+    
     ### G ###
 
     {
@@ -572,6 +584,12 @@ Characters = [
         "EQUIPO": "RAIMON II"
     },
     {
+        "Nombre": "TRINA VERDURE", "Curso": "1º",
+        "Elemento": "Bosque", "Posición": "DF",
+        "Género": "F", "Invocador": "EG_T",
+        "EQUIPO": "EARTH ELEVEN"
+    },
+    {
         "Nombre": "TYLER MURDOCK", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -628,7 +646,13 @@ Characters = [
     ### Y ###
 
     ### Z ###
-    
+
+    {
+        "Nombre": "ZACK AVALON", "Curso": "3º",
+        "Elemento": "Bosque", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_T",
+        "EQUIPO": "EARTH ELEVEN"
+    },
     {
         "Nombre": "ZANARK AVALONIC (CS)", "Curso": "Por_Definir",
         "Elemento": "Montaña", "Posición": "DL",
@@ -651,14 +675,14 @@ CharacterRef = [
     'BAI LONG', 'BAI LONG (CS)', 'BELLATRIX', 'BETA', 'BOBBY SHEARER', 'BOBBY SHEARER (UNICORN)',
     'BRIAR BLOOMHURST', 'BRYCE WITHINGALE', 'BUDDY FURY', 'BYRON LOVE', 
     ### C ###
-    'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'CLAUDE BEACONS',
+    'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'CERISE BLOSSOM', 'CLAUDE BEACONS',
     ### D ###
     'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 
     'DAVID SAMFORD (REDUX)', 'DESTIN BILLOWS','DVALIN', 
     ### E ###
     'ERIK EAGLE', 'ERIK EAGLE (UNICORN)',
     ### F ###
-    'FALCO FLASHMAN', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 
+    'FALCO FLASHMAN', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'FRANK FOREMAN'
     ### G ###
     'GABRIEL GARCÍA', 'GABRIEL GARCÍA (CS)', 'GAMMA', 'GAZELLE', 'GOLDIE LEMMON (CS)', 
     ### H ###
@@ -685,7 +709,7 @@ CharacterRef = [
     'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SCOTTY', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
     'SILVIA WOODS', 'STEVE GRIM', 'SUE', 
     ### T ###
-    'TERRY ARCHIBALD', 'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TYLER MURDOCK', 
+    'TERRY ARCHIBALD', 'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TRINA VERDURE', 'TYLER MURDOCK', 
     ### V ###
     'VICTOR BLADE', 'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 
     ### W ###
@@ -694,5 +718,5 @@ CharacterRef = [
     'XAVIER FOSTER', 'XENE', 
     ### Y ###
     ### Z ###
-    'ZANARK AVALONIC (CS)', 'ZIPPY LERNER'
+    'ZACK AVALON', 'ZANARK AVALONIC (CS)', 'ZIPPY LERNER'
 ]
