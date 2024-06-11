@@ -198,6 +198,12 @@ Characters = [
         "EQUIPO": "ACADEMIA ALIUS (REDUX)"
     },
     {
+        "Nombre": "DAVY JONES", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "RESISTENCIA DE JAPON"
+    },
+    {
         "Nombre": "DESTIN BILLOWS", "Curso": "1º",
         "Elemento": "Bosque", "Posición": "DT",
         "Género": "M", "Invocador": "EG_N",
@@ -503,6 +509,13 @@ Characters = [
 
     ### Q ###
 
+    {
+        "Nombre": "QUENTIN CINQUEDEA (RESISTENCIA)", "Curso": "2º",
+        "Elemento": "Fuego", "Posición": "PR",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "RESISTENCIA DE JAPON"
+    },
+    
     ### R ###
     
     {
@@ -738,7 +751,7 @@ CharacterRef = [
     'CALEB STONEWALL', 'CALEB STONEWALL (ADULTO)', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'CERISE BLOSSOM', 'CLAUDE BEACONS', 'CRONUS FOURSEASONS', 
     ### D ###
     'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 
-    'DAVID SAMFORD (REDUX)', 'DESTIN BILLOWS','DVALIN', 
+    'DAVID SAMFORD (REDUX)', 'DAVY JONES','DESTIN BILLOWS','DVALIN', 
     ### E ###
     'ERIK EAGLE', 'ERIK EAGLE (UNICORN)',
     ### F ###
@@ -763,6 +776,7 @@ CharacterRef = [
     ### P ###
     'PAOLO BIANCHI', 'PERCIVAL TRAVIS', 
     ### Q ###
+    'QUENTIN CINQUEDEA (RESISTENCIA)',
     ### R ###
     'RAY DARK', 'RICCARDO DI RIGO', 'RICCARDO DI RIGO (CS)', 'RYOMA NISHIKI (CS)', 
     ### S ###
