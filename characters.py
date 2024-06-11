@@ -15,7 +15,7 @@ Characters = [
         "EQUIPO": "NEO JAPON"
     },
     {
-        "Nombre": "ALEX ZABEL", "Curso": "ADULTO",
+        "Nombre": "AXEL BLAZE (ALEX ZABEL)", "Curso": "ADULTO",
         "Elemento": "Fuego", "Posición": "DT",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "MONTE OLIMPO"
@@ -70,6 +70,12 @@ Characters = [
         "Elemento": "Aire", "Posición": "DL",
         "Género": "M", "Invocador": "EG_ARM",
         "EQUIPO": "CHRONO STORM"
+    },
+    {
+        "Nombre": "BAI LONG (RESISTENCIA)", "Curso": "1º",
+        "Elemento": "Aire", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "RESISTENCIA DE JAPON"
     },
     {
         "Nombre": "BELLATRIX", "Curso": "2º",
@@ -127,6 +133,12 @@ Characters = [
         "Elemento": "Fuego", "Posición": "MD",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "INAZUMA JAPON"
+    },
+    {
+        "Nombre": "CALEB STONEWALL (ADULTO)", "Curso": "ADULTO",
+        "Elemento": "Fuego", "Posición": "DT",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RESISTENCIA DE JAPON"
     },
     {
         "Nombre": "CALEB STONEWALL (REDUX)", "Curso": "2º",
@@ -465,6 +477,12 @@ Characters = [
         "Género": "M", "Invocador": "EG_Y",
         "EQUIPO": "ALPINO (GO)"
     },
+    {
+        "Nombre": "NJORD SNIO (RESISTENCIA)", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "RESISTENCIA DE JAPON"
+    },
 
     ### O ###
 
@@ -714,10 +732,10 @@ CharacterRef = [
     'AITOR CAZADOR', 'ALAN MASTER', 'ALEX ZABEL', 'ALFA', 'APHRODITE', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 
     'ASTERO BLACK', 'AXEL BLAZE', 
     ### B ### 
-    'BAI LONG', 'BAI LONG (CS)', 'BELLATRIX', 'BETA', 'BOBBY SHEARER', 'BOBBY SHEARER (UNICORN)',
+    'BAI LONG', 'BAI LONG (CS)', 'BAI LONG (RESISTENCIA)', 'BELLATRIX', 'BETA', 'BOBBY SHEARER', 'BOBBY SHEARER (UNICORN)',
     'BRIAR BLOOMHURST', 'BRYCE WITHINGALE', 'BUDDY FURY', 'BYRON LOVE', 
     ### C ###
-    'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'CERISE BLOSSOM', 'CLAUDE BEACONS', 'CRONUS FOURSEASONS', 
+    'CALEB STONEWALL', 'CALEB STONEWALL (ADULTO)', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'CERISE BLOSSOM', 'CLAUDE BEACONS', 'CRONUS FOURSEASONS', 
     ### D ###
     'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 
     'DAVID SAMFORD (REDUX)', 'DESTIN BILLOWS','DVALIN', 
@@ -740,7 +758,7 @@ CharacterRef = [
     'MARK EVANS', 'MARK EVANS (II)', 'MARK EVANS (ADULTO)', 'MARK EVANS (ARIONS)', 'MARK EVANS (LEGENDARIO)', 
     'MAX', 'MECHAMARK', 'MICHEAL BALLZACK', 'MIKE', 'MISTER D', 
     ### N ###
-    'NATHAN SWIFT', 'NELLY RAIMON', 'NEPPTEN', 'NJORD SNIO',
+    'NATHAN SWIFT', 'NELLY RAIMON', 'NEPPTEN', 'NJORD SNIO', 'NJORD SNIO (RESISTENCIA)',
     ### O ###
     ### P ###
     'PAOLO BIANCHI', 'PERCIVAL TRAVIS', 
