@@ -9,7 +9,7 @@ st.set_page_config(
     page_title="Inazumadle",
     page_icon="⚡",
     layout="centered"
-    )
+)
 
 IMAGE_DIR = "assets/images" 
 
@@ -22,24 +22,36 @@ Correct = False
 key = 1
 
 # Función para verificar los valores y mostrar el resultado
-def CheckValues():
+def CheckValues(g_index):
     N = 1
     for key in character:
         color = "red"
         size = "100%"
         time.sleep(0.1)
         variable_name = "col" + str(N)
-        with globals()[variable_name]:
-            if N == 1:
-                if (Characters[g_index][key].split())[1] == (character[key].split())[1] and (Characters[g_index][key].split())[2] == (character[key].split())[2]:
-                    color = "yellow"
+        if N == 1 or N == 7 or N == 4 or N == 6:
+            Split_Key = Characters[g_index][key].split()
+            Split_char = character[key].split()
+            if N == 1 and Split_Key[:2] == Split_char[:2]:
+                color = "#FFBF00"
+            elif N == 4 or N == 6:
+                Pos = ["DF", "LB", "EG_Y", "EG_ARM"]
+                if Characters[g_index][key] in Pos and character[key] in Pos:
+                    color = "#FFBF00"
+                    color = "#FFBF00"
             elif N == 7:
-                if (haracter[key].split())[1] == "RAIMON" and (Characters[g_index][key].split())[1] == "RAIMON":
-                    color = "yellow"
-            if Characters[g_index][key] == character[key]:
-                color = "green"
-            if key in ["Elemento", "Género","Invocador"]:
-                size = "65%"
+                if Split_Key[0] == "RAIMON" and Split_char[0] == "RAIMON":
+                    color = "#FFBF00"
+                else:
+                    Equipos_Coincidentes = ["ACADEMIA ALIUS", "PROTOCOLO OMEGA"]
+                    if ((" ".join(Split_Key[:2])) in Equipos_Coincidentes  and (" ".join(Split_char[:2])) in Equipos_Coincidentes
+                        and Equipos_Coincidentes.index((" ".join(Split_Key[:2]))) == Equipos_Coincidentes.index((" ".join(Split_char[:2])))):
+                        color = "#FFBF00"
+        if Characters[g_index][key] == character[key]:
+            color = "green"
+        if key in ["Elemento", "Género", "Invocador"]:
+            size = "65%"
+        with globals()[variable_name]:
             image_path = os.path.join(IMAGE_DIR, f"{Characters[g_index][key]}.png")
             if os.path.exists(image_path):
                 with open(image_path, 'rb') as image_file:
@@ -95,15 +107,15 @@ for T in range(5, -1, -1):
         guess = st.selectbox("Personajes", CharacterRef, index=None, placeholder="¡Adivina un personaje!", key=key, label_visibility="collapsed")
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7, gap="medium")
     g_index = CharacterRef.index(guess)
-    if guess == character["Nombre"]:
-        CheckValues()
+    if Characters[g_index]["Nombre"] == character["Nombre"]:
+        CheckValues(g_index)
         Correct = True
         st.markdown("<div class='result correct'>¡Correcto! El personaje era " + character["Nombre"] + "</div>", unsafe_allow_html=True)
         st.markdown("</div>", unsafe_allow_html=True)
         break
     else:
         st.markdown("<div class='result incorrect'>Intentos restantes: " + str(T) + "</div>", unsafe_allow_html=True)
-        CheckValues()
+        CheckValues(g_index)
     key += 1
 
 if not Correct:
