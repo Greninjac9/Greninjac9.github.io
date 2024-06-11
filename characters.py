@@ -300,7 +300,7 @@ Characters = [
     ### H ###
 
     {
-        "Nombre": "HARROLD HOUDINI", "Curso": "3º",
+        "Nombre": "HARROLD HOUDINI (RESISTENCIA)", "Curso": "3º",
         "Elemento": "Bosque", "Posición": "MD",
         "Género": "M", "Invocador": "EG_Y",
         "EQUIPO": "RESISTENCIA DE JAPON"
@@ -765,7 +765,7 @@ CharacterRef = [
     ### G ###
     'GABRIEL GARCÍA', 'GABRIEL GARCÍA (CS)', 'GAMMA', 'GAZELLE', 'GOLDIE LEMMON (CS)', 
     ### H ###
-    'HARROLD HOUDINI', 'HECTOR HELIO', 'HOTEL',
+    'HARROLD HOUDINI (RESISTENCIA)', 'HECTOR HELIO', 'HOTEL',
     'HURLEY KANE', 
     ### J ###
     'JACK WALLSIDE', 'JANUS', 'JEAN-PIERRE LAPAN', 'JEAN-PIERRE LAPAN (CS)', 'JUDE SHARP', 
