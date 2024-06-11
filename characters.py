@@ -235,7 +235,7 @@ Characters = [
     },
     {
         "Nombre": "DAVE QUAGMIRE (DVALIN)", "Curso": "3º",
-        "Elemento": "Aire", "Posición": "PR",
+        "Elemento": "Fuego", "Posición": "PR",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ACADEMIA ALIUS (EPSILON)"
     },
