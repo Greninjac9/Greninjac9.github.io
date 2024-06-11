@@ -47,7 +47,7 @@ def CheckValues(g_index):
                     Equipo1 = " ".join(Split_Key[:2])
                     Equipo2 = " ".join(Split_char[:2])
                     if (Equipo1 in Equipos_Coincidentes  and Equipo2 in Equipos_Coincidentes
-                        and Equipos_Coincidentes[Equipo1].index() == Equipos_Coincidentes[Equipo2].index()):
+                        and Equipos_Coincidentes.index(Equipo1) == Equipos_Coincidentes.index(Equipo2)):
                         color = "#FFBF00"
         if Characters[g_index][key] == character[key]:
             color = "green"
