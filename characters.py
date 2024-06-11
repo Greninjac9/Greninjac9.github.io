@@ -330,6 +330,12 @@ Characters = [
         "EQUIPO": "PROTOCOLO OMEGA 1.0"
     },
     {
+        "Nombre": "XAVIER FOSTER (HUNTER)", "Curso": "3º",
+        "Elemento": "Fuego", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ACADEMIA ALIA"
+    },
+    {
         "Nombre": "HURLEY KANE", "Curso": "3º",
         "Elemento": "Aire", "Posición": "DF",
         "Género": "M", "Invocador": "EG_N",
@@ -734,6 +740,18 @@ Characters = [
         "EQUIPO": "INAZUMA JAPON"
     },
     {
+        "Nombre": "XAVIER FOSTER (SCHILLER)", "Curso": "ADULTO",
+        "Elemento": "Fuego", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "INAZUMA JAPON LEGENDARIO"
+    },
+    {
+        "Nombre": "XAVIER SCHILLER", "Curso": "2º",
+        "Elemento": "Bosque", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ACADEMIA ALIA"
+    },
+    {
         "Nombre": "XAVIER FOSTER (XENE)", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -785,7 +803,7 @@ CharacterRef = [
     'GABRIEL GARCÍA', 'GABRIEL GARCÍA (CS)', 'GAMMA', 'GAZELLE', 'GOLDIE LEMMON (CS)', 
     ### H ###
     'HARROLD HOUDINI (RESISTENCIA)', 'HECTOR HELIO', 'HOTEL',
-    'HURLEY KANE', 
+    'HUNTER FOSTER', 'HURLEY KANE', 
     ### J ###
     'JACK WALLSIDE', 'JANUS', 'JEAN-PIERRE LAPAN', 'JEAN-PIERRE LAPAN (CS)', 'JUDE SHARP', 
     'JOSEPH KING', 'JOSEPH KING (REDUX)', 'JORDAN GREENWAY', 'JULIETA', 
@@ -814,7 +832,7 @@ CharacterRef = [
     ### W ###
     'WILLIAM GLASS',
     ### X ###
-    'XAVIER FOSTER', 'XENE', 
+    'XAVIER FOSTER', 'XAVIER SCHILLER', 'XAVIER SCHILLER (ARES)', 'XENE', 
     ### Y ###
     ### Z ###
     'ZACK AVALON', 'ZANARK AVALONIC (CS)', 'ZIPPY LERNER'
