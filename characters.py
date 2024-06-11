@@ -15,6 +15,12 @@ Characters = [
         "EQUIPO": "NEO JAPON"
     },
     {
+        "Nombre": "ALEX ZABEL", "Curso": "ADULTO",
+        "Elemento": "Fuego", "Posición": "DT",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "MONTE OLIMPO"
+    },
+    {
         "Nombre": "ALFA", "Curso": "Por_Definir",
         "Elemento": "Fuego", "Posición": "DL",
         "Género": "M", "Invocador": "EG_ARM",
@@ -145,6 +151,12 @@ Characters = [
         "Elemento": "Fuego", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "DRAGONES DE FUEGO"
+    },
+    {
+        "Nombre": "CRONUS FOURSEASONS", "Curso": "2º",
+        "Elemento": "Fuego", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "MONTE OLIMPO"
     },
     
     ### D ###
@@ -699,13 +711,13 @@ Characters = [
 
 CharacterRef = [
     ### A ###
-    'AITOR CAZADOR', 'ALAN MASTER', 'ALFA', 'APHRODITE', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 
+    'AITOR CAZADOR', 'ALAN MASTER', 'ALEX ZABEL', 'ALFA', 'APHRODITE', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 
     'ASTERO BLACK', 'AXEL BLAZE', 
     ### B ### 
     'BAI LONG', 'BAI LONG (CS)', 'BELLATRIX', 'BETA', 'BOBBY SHEARER', 'BOBBY SHEARER (UNICORN)',
     'BRIAR BLOOMHURST', 'BRYCE WITHINGALE', 'BUDDY FURY', 'BYRON LOVE', 
     ### C ###
-    'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'CERISE BLOSSOM', 'CLAUDE BEACONS',
+    'CALEB STONEWALL', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'CERISE BLOSSOM', 'CLAUDE BEACONS', 'CRONUS FOURSEASONS', 
     ### D ###
     'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 
     'DAVID SAMFORD (REDUX)', 'DESTIN BILLOWS','DVALIN', 
