@@ -3,6 +3,12 @@ Characters = [
     ### A ###
 
     {
+        "Nombre": "ADÉ KÉBÉ", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON (GO)"
+    },
+    {
         "Nombre": "AIDEN FROSTE", "Curso": "2º",
         "Elemento": "Fuego", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -37,6 +43,12 @@ Characters = [
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ZEUS"
+    },
+    {
+        "Nombre": "ARION SHERWIND", "Curso": "1º",
+        "Elemento": "Aire", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "RAIMON (GO)"
     },
     {
         "Nombre": "ARION SHERWIND (ARIONS)", "Curso": "1º",
@@ -242,6 +254,12 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "UNICORN"
     },
+    {
+        "Nombre": "EUGENE PEABODY", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON (GO)"
+    },
 
     ### F ###
     
@@ -328,6 +346,12 @@ Characters = [
         "Elemento": "Montaña", "Posición": "PR",
         "Género": "M", "Invocador": "EG_Y",
         "EQUIPO": "PROTOCOLO OMEGA 1.0"
+    },
+    {
+        "Nombre": "HUGUES BAUDET", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON (GO)"
     },
     {
         "Nombre": "XAVIER FOSTER (HUNTER)", "Curso": "3º",
@@ -423,6 +447,13 @@ Characters = [
     },
 
     ### L ###
+
+    {
+        "Nombre": "LUCIAN DARK", "Curso": "1º",
+        "Elemento": "Bosque", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON (GO)"
+    },
     
     ### M ###
     
@@ -469,7 +500,7 @@ Characters = [
         "EQUIPO": "PROTOCOLO OMEGA (EL DORADO 02)"
     },
     {
-        "Nombre": "MICHEAL BALLZACK", "Curso": "2º",
+        "Nombre": "MICHAEL BALLZACK", "Curso": "2º",
         "Elemento": "Montaña", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON (GO)"
@@ -567,6 +598,12 @@ Characters = [
         "EQUIPO": "CHRONO STORM"
     },
     {
+        "Nombre": "RYOMA NISHIKI", "Curso": "2º",
+        "Elemento": "Montaña", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "RAIMON (GO)"
+    },
+    {
         "Nombre": "RYOMA NISHIKI (CS)", "Curso": "2º",
         "Elemento": "Montaña", "Posición": "MD",
         "Género": "M", "Invocador": "EG_ARM",
@@ -624,6 +661,12 @@ Characters = [
         "EQUIPO": "RAIMON II"
     },
     {
+        "Nombre": "SHUNSUKE AOYAMA", "Curso": "2º",
+        "Elemento": "Bosque", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON (GO)"
+    },
+    {
         "Nombre": "SILVIA WOODS", "Curso": "2º",
         "Elemento": "Montaña", "Posición": "PR",
         "Género": "F", "Invocador": "EG_N",
@@ -646,6 +689,12 @@ Characters = [
         "Elemento": "Aire", "Posición": "MD",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON"
+    },
+    {
+        "Nombre": "SUBARU HONDA", "Curso": "3º",
+        "Elemento": "Fuego", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON (GO)"
     },
     {
         "Nombre": "SUZETTE HARTLAND", "Curso": "2º",
@@ -723,7 +772,13 @@ Characters = [
     },
 
     ### W ###
-    
+
+    {
+        "Nombre": "WANLI CHANGCHENG", "Curso": "3º",
+        "Elemento": "Montaña", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "RAIMON (GO)"
+    },
     {
         "Nombre": "WILLIAM GLASS", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
@@ -784,7 +839,7 @@ Characters = [
 
 CharacterRef = [
     ### A ###
-    'AIDEN FROSTE', 'AITOR CAZADOR', 'ALAN MASTER', 'ALEX ZABEL', 'ALFA', 'APHRODITE', 
+    'ADÉ KÉBÉ', 'AIDEN FROSTE', 'AITOR CAZADOR', 'ALAN MASTER', 'ALEX ZABEL', 'ALFA', 'APHRODITE', 'ARION SHERWIND', 
     'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 
     'ASTERO BLACK', 'AXEL BLAZE', 
     ### B ### 
@@ -796,13 +851,13 @@ CharacterRef = [
     'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 
     'DAVID SAMFORD (REDUX)', 'DAVY JONES','DESTIN BILLOWS','DVALIN', 
     ### E ###
-    'ERIK EAGLE', 'ERIK EAGLE (UNICORN)',
+    'ERIK EAGLE', 'ERIK EAGLE (UNICORN)', 'EUGENE PEABODY', 
     ### F ###
     'FALCO FLASHMAN', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'FRANK FOREMAN',
     ### G ###
     'GABRIEL GARCÍA', 'GABRIEL GARCÍA (CS)', 'GAMMA', 'GAZELLE', 'GOLDIE LEMMON (CS)', 
     ### H ###
-    'HARROLD HOUDINI (RESISTENCIA)', 'HECTOR HELIO', 'HOTEL',
+    'HARROLD HOUDINI (RESISTENCIA)', 'HECTOR HELIO', 'HOTEL', 'HUGUES BAUDET', 
     'HUNTER FOSTER', 'HURLEY KANE', 
     ### J ###
     'JACK WALLSIDE', 'JANUS', 'JEAN-PIERRE LAPAN', 'JEAN-PIERRE LAPAN (CS)', 'JUDE SHARP', 
@@ -810,9 +865,10 @@ CharacterRef = [
     ### K ###
     'KEENAN SHARPE', 'KEVIN DRAGONFLY', 'KEVIN DRAGONFLY (ARES)',
     ### L ###
+    'LUCIAN DARK', 
     ### M ###
     'MARK EVANS', 'MARK EVANS (II)', 'MARK EVANS (ADULTO)', 'MARK EVANS (ARIONS)', 'MARK EVANS (LEGENDARIO)', 
-    'MAX', 'MECHAMARK', 'MICHEAL BALLZACK', 'MIKE', 'MISTER D', 
+    'MAX', 'MECHAMARK', 'MICHAEL BALLZACK', 'MIKE', 'MISTER D', 
     ### N ###
     'NATHAN SWIFT', 'NELLY RAIMON', 'NEPPTEN', 'NJORD SNIO', 'NJORD SNIO (RESISTENCIA)',
     ### O ###
@@ -821,16 +877,16 @@ CharacterRef = [
     ### Q ###
     'QUENTIN CINQUEDEA (RESISTENCIA)',
     ### R ###
-    'RAY DARK', 'RICCARDO DI RIGO', 'RICCARDO DI RIGO (CS)', 'RYOMA NISHIKI (CS)', 
+    'RAY DARK', 'RICCARDO DI RIGO', 'RICCARDO DI RIGO (CS)', 'RYOMA NISHIKI', 'RYOMA NISHIKI (CS)', 
     ### S ###
     'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SCOTTY', 'SHAWN FROSTE', 'SHAWN FROSTE (ADULTO)', 'SHAWN FROSTE (AIDEN)', 
-    'SHAWN FROSTE (DF)', 'SILVIA WOODS', 'SOL DAYSTAR (CS)', 'SOR (CS)', 'STEVE GRIM', 'SUE', 
+    'SHAWN FROSTE (DF)', 'SHUNSUKE AOYAMA', 'SILVIA WOODS', 'SOL DAYSTAR (CS)', 'SOR (CS)', 'STEVE GRIM', 'SUBARU HONDA', 'SUE', 
     ### T ###
     'TERRY ARCHIBALD', 'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TRINA VERDURE', 'TYLER MURDOCK', 
     ### V ###
     'VICTOR BLADE', 'VICTOR BLADE (CS)', 'VLADIMIR BLADE', 
     ### W ###
-    'WILLIAM GLASS',
+    'WANLI CHANGCHENG', 'WILLIAM GLASS',
     ### X ###
     'XAVIER FOSTER', 'XAVIER SCHILLER', 'XAVIER SCHILLER (ARES)', 'XENE', 
     ### Y ###
