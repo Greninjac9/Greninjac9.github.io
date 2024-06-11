@@ -3,6 +3,12 @@ Characters = [
     ### A ###
 
     {
+        "Nombre": "AIDEN FROSTE", "Curso": "2º",
+        "Elemento": "Fuego", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ALPINO (ARES)"
+    },
+    {
         "Nombre": "AITOR CAZADOR", "Curso": "1º",
         "Elemento": "Bosque", "Posición": "DF",
         "Género": "M", "Invocador": "EG_N",
@@ -118,6 +124,12 @@ Characters = [
         "Elemento": "Montaña", "Posición": "MD",
         "Género": "M", "Invocador": "EG_T",
         "EQUIPO": "EARTH ELEVEN"
+    },
+    {
+        "Nombre": "BUNNY COTTONTAIL", "Curso": "1º",
+        "Elemento": "Aire", "Posición": "DL",
+        "Género": "F", "Invocador": "EG_N",
+        "EQUIPO": "ALPINO (ARES)"
     },
     {
         "Nombre": "BYRON LOVE", "Curso": "2º",
@@ -396,6 +408,12 @@ Characters = [
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON"
+    },
+    {
+        "Nombre": "KEVIN DRAGONFLY (ARES)", "Curso": "3º",
+        "Elemento": "Bosque", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ALPINO (ARES)"
     },
 
     ### L ###
@@ -748,11 +766,12 @@ Characters = [
 
 CharacterRef = [
     ### A ###
-    'AITOR CAZADOR', 'ALAN MASTER', 'ALEX ZABEL', 'ALFA', 'APHRODITE', 'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 
+    'AIDEN FROSTE', 'AITOR CAZADOR', 'ALAN MASTER', 'ALEX ZABEL', 'ALFA', 'APHRODITE', 
+    'ARION SHERWIND (ARIONS)', 'ARION SHERWIND (CS)', 
     'ASTERO BLACK', 'AXEL BLAZE', 
     ### B ### 
     'BAI LONG', 'BAI LONG (CS)', 'BAI LONG (RESISTENCIA)', 'BELLATRIX', 'BETA', 'BOBBY SHEARER', 'BOBBY SHEARER (UNICORN)',
-    'BRIAR BLOOMHURST', 'BRYCE WITHINGALE', 'BUDDY FURY', 'BYRON LOVE', 
+    'BRIAR BLOOMHURST', 'BRYCE WITHINGALE', 'BUDDY FURY', 'BUNNY COTTONTAIL', 'BYRON LOVE', 
     ### C ###
     'CALEB STONEWALL', 'CALEB STONEWALL (ADULTO)', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'CERISE BLOSSOM', 'CLAUDE BEACONS', 'CRONUS FOURSEASONS', 
     ### D ###
@@ -771,7 +790,7 @@ CharacterRef = [
     'JACK WALLSIDE', 'JANUS', 'JEAN-PIERRE LAPAN', 'JEAN-PIERRE LAPAN (CS)', 'JUDE SHARP', 
     'JOSEPH KING', 'JOSEPH KING (REDUX)', 'JORDAN GREENWAY', 'JULIETA', 
     ### K ###
-    'KEENAN SHARPE', 'KEVIN DRAGONFLY',
+    'KEENAN SHARPE', 'KEVIN DRAGONFLY', 'KEVIN DRAGONFLY (ARES)',
     ### L ###
     ### M ###
     'MARK EVANS', 'MARK EVANS (II)', 'MARK EVANS (ADULTO)', 'MARK EVANS (ARIONS)', 'MARK EVANS (LEGENDARIO)', 
