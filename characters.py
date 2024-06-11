@@ -239,6 +239,12 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ACADEMIA ALIUS (EPSILON)"
     },
+    {
+        "Nombre": "DAVE QUAGMIRE (DVALIN (PLUS))", "Curso": "3º",
+        "Elemento": "Aire", "Posición": "PR",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ACADEMIA ALIUS (EPSILON PLUS)"
+    },
     
     ### E ###
     
@@ -849,7 +855,7 @@ CharacterRef = [
     'CALEB STONEWALL', 'CALEB STONEWALL (ADULTO)', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 'CERISE BLOSSOM', 'CLAUDE BEACONS', 'CRONUS FOURSEASONS', 
     ### D ###
     'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 
-    'DAVID SAMFORD (REDUX)', 'DAVY JONES','DESTIN BILLOWS','DVALIN', 
+    'DAVID SAMFORD (REDUX)', 'DAVY JONES','DESTIN BILLOWS','DVALIN', 'DVALIN (PLUS)',
     ### E ###
     'ERIK EAGLE', 'ERIK EAGLE (UNICORN)', 'EUGENE PEABODY', 
     ### F ###
