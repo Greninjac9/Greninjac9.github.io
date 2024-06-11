@@ -447,6 +447,12 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "ACADEMIA ALIUS (CAOS)"
     },
+    {
+        "Nombre": "NJORD SNIO", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "ALPINO (GO)"
+    },
 
     ### O ###
 
@@ -525,6 +531,12 @@ Characters = [
         "Elemento": "Aire", "Posición": "LB",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "INAZUMA JAPON"
+    },
+    {
+        "Nombre": "SHAWN FROSTE (ADULTO)", "Curso": "ADULTO",
+        "Elemento": "Aire", "Posición": "DT",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ALPINO (GO)"
     },
     {
         "Nombre": "SHAWN FROSTE (AIDEN)", "Curso": "2º",
@@ -716,7 +728,7 @@ CharacterRef = [
     'MARK EVANS', 'MARK EVANS (II)', 'MARK EVANS (ADULTO)', 'MARK EVANS (ARIONS)', 'MARK EVANS (LEGENDARIO)', 
     'MAX', 'MECHAMARK', 'MICHEAL BALLZACK', 'MIKE', 'MISTER D', 
     ### N ###
-    'NATHAN SWIFT', 'NELLY RAIMON', 'NEPPTEN',
+    'NATHAN SWIFT', 'NELLY RAIMON', 'NEPPTEN', 'NJORD SNIO',
     ### O ###
     ### P ###
     'PAOLO BIANCHI', 'PERCIVAL TRAVIS', 
@@ -724,8 +736,8 @@ CharacterRef = [
     ### R ###
     'RAY DARK', 'RICCARDO DI RIGO', 'RICCARDO DI RIGO (CS)', 'RYOMA NISHIKI (CS)', 
     ### S ###
-    'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SCOTTY', 'SHAWN FROSTE', 'SHAWN FROSTE (AIDEN)', 'SHAWN FROSTE (DF)', 
-    'SILVIA WOODS', 'SOL DAYSTAR (CS)', 'SOR (CS)', 'STEVE GRIM', 'SUE', 
+    'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SCOTTY', 'SHAWN FROSTE', 'SHAWN FROSTE (ADULTO)', 'SHAWN FROSTE (AIDEN)', 
+    'SHAWN FROSTE (DF)', 'SILVIA WOODS', 'SOL DAYSTAR (CS)', 'SOR (CS)', 'STEVE GRIM', 'SUE', 
     ### T ###
     'TERRY ARCHIBALD', 'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TRINA VERDURE', 'TYLER MURDOCK', 
     ### V ###
