@@ -44,8 +44,7 @@ def CheckValues(g_index):
                     color = "#FFBF00"
                 else:
                     Equipos_Coincidentes = ["ACADEMIA ALIUS", "PROTOCOLO OMEGA"]
-                    if ((" ".join(Split_Key[:2])) in Equipos_Coincidentes  and (" ".join(Split_char[:2])) in Equipos_Coincidentes 
-                          and Equipos_Coincidentes[(" ".join(Split_Key[:2]))].index() == Equipos_Coincidentes[(" ".join(Split_char[:2]))].index()):
+                    if ((((" ".join(Split_Key[:2])) in Equipos_Coincidentes)  and ((" ".join(Split_char[:2])) in Equipos_Coincidentes)) and (Equipos_Coincidentes[(" ".join(Split_Key[:2]))].index() == Equipos_Coincidentes[(" ".join(Split_char[:2]))].index())):
                         color = "#FFBF00"
         if Characters[g_index][key] == character[key]:
             color = "green"
