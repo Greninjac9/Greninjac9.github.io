@@ -228,6 +228,12 @@ Characters = [
         "EQUIPO": "INAZUMA JAPON"
     },
     {
+        "Nombre": "DAVID SAMFORD (LEGENDARIO)", "Curso": "ADULTO",
+        "Elemento": "Bosque", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "INAZUMA JAPON LEGENDARIO"
+    },
+    {
         "Nombre": "DAVID SAMFORD (REDUX)", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "DL",
         "Género": "M", "Invocador": "EG_N",
@@ -259,7 +265,13 @@ Characters = [
     },
     
     ### E ###
-    
+
+    {
+        "Nombre": "ELLIOT EMBER (ORION)", "Curso": "1º",
+        "Elemento": "Bosque", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "INAZUMA JAPON (ORION)"
+    },
     {
         "Nombre": "ERIK EAGLE", "Curso": "2º",
         "Elemento": "Bosque", "Posición": "MD",
@@ -585,6 +597,12 @@ Characters = [
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "INAZUMA JAPON"
     },
+    {
+        "Nombre": "PERCY HURST (PERSEO)", "Curso": "2º",
+        "Elemento": "Fuego", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "ZEUS (ARES)"
+    },
 
     ### Q ###
 
@@ -677,6 +695,18 @@ Characters = [
         "Elemento": "Aire", "Posición": "DF",
         "Género": "M", "Invocador": "EG_N",
         "EQUIPO": "RAIMON II"
+    },
+    {
+        "Nombre": "SHAWN FROSTE (LEGENDARIO)", "Curso": "ADULTO",
+        "Elemento": "Aire", "Posición": "DL",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "INAZUMA JAPON LEGENDARIO"
+    },
+    {
+        "Nombre": "SHAWN FROSTE (ORION)", "Curso": "3º",
+        "Elemento": "Aire", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "INAZUMA JAPON (ORION)"
     },
     {
         "Nombre": "SHUNSUKE AOYAMA", "Curso": "2º",
@@ -867,10 +897,10 @@ CharacterRef = [
     'CALEB STONEWALL', 'CALEB STONEWALL (ADULTO)', 'CALEB STONEWALL (REDUX)', 'CELIA HILLS', 
     'CERISE BLOSSOM', 'CLAUDE BEACONS', 'CRONUS FOURSEASONS', 'CRONUS FOURSEASONS (RESISTENCIA)',
     ### D ###
-    'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 
+    'DARREN LACHANCE', 'DAVE QUAGMIRE', 'DAVID SAMFORD', 'DAVID SAMFORD (LEGENDARIO)',
     'DAVID SAMFORD (REDUX)', 'DAVY JONES','DESTIN BILLOWS','DVALIN', 'DVALIN (PLUS)',
     ### E ###
-    'ERIK EAGLE', 'ERIK EAGLE (UNICORN)', 'EUGENE PEABODY', 
+    'ELLIOT EMBER (ORION)', 'ERIK EAGLE', 'ERIK EAGLE (UNICORN)', 'EUGENE PEABODY', 
     ### F ###
     'FALCO FLASHMAN', 'FEI RUNE', 'FEI RUNE (CS)', 'FLORA', 'FRANK FOREMAN',
     ### G ###
@@ -892,14 +922,14 @@ CharacterRef = [
     'NATHAN SWIFT', 'NELLY RAIMON', 'NEPPTEN', 'NJORD SNIO', 'NJORD SNIO (RESISTENCIA)',
     ### O ###
     ### P ###
-    'PAOLO BIANCHI', 'PERCIVAL TRAVIS', 
+    'PAOLO BIANCHI', 'PERCIVAL TRAVIS', 'PERSEO',
     ### Q ###
     'QUENTIN CINQUEDEA (RESISTENCIA)',
     ### R ###
     'RAY DARK', 'RICCARDO DI RIGO', 'RICCARDO DI RIGO (CS)', 'RYOMA NISHIKI', 'RYOMA NISHIKI (CS)', 
     ### S ###
     'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SCOTTY', 'SHAWN FROSTE', 'SHAWN FROSTE (ADULTO)', 'SHAWN FROSTE (AIDEN)', 
-    'SHAWN FROSTE (DF)', 'SHUN', 'SILVIA WOODS', 'SOL DAYSTAR (CS)', 'SOR (CS)', 'STEVE GRIM', 'SUBARU HONDA', 'SUE', 
+    'SHAWN FROSTE (DF)', 'SHAWN FROSTE (LEGENDARIO)', 'SHAWN FROSTE (ORION)', 'SHUN', 'SILVIA WOODS', 'SOL DAYSTAR (CS)', 'SOR (CS)', 'STEVE GRIM', 'SUBARU HONDA', 'SUE', 
     ### T ###
     'TERRY ARCHIBALD', 'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TRINA VERDURE', 'TYLER MURDOCK', 
     ### V ###
