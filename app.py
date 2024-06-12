@@ -40,7 +40,10 @@ def CheckValues(g_index):
                     color = "#FFBF00"
             elif N == 7:
                 Equipos_Coincidentes = ["RAIMON", "ALPINO", "ACADEMIA ALIUS", "PROTOCOLO OMEGA"]
-                if ((" ".join(Split_Key[:2])) in Equipos_Coincidentes  and (" ".join(Split_char[:2])) in Equipos_Coincidentes
+                if ((" ".join(Split_Key[:1])) in Equipos_Coincidentes  and (" ".join(Split_char[:1])) in Equipos_Coincidentes
+                    and Equipos_Coincidentes.index((" ".join(Split_Key[:1]))) == Equipos_Coincidentes.index((" ".join(Split_char[:1])))):
+                    color = "#FFBF00"
+                elif ((" ".join(Split_Key[:2])) in Equipos_Coincidentes  and (" ".join(Split_char[:2])) in Equipos_Coincidentes
                     and Equipos_Coincidentes.index((" ".join(Split_Key[:2]))) == Equipos_Coincidentes.index((" ".join(Split_char[:2])))):
                     color = "#FFBF00"
         if Characters[g_index][key] == character[key]:
