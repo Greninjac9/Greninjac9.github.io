@@ -45,6 +45,12 @@ Characters = [
         "EQUIPO": "ZEUS"
     },
     {
+        "Nombre": "ARCHER HAWKINS", "Curso": "2º",
+        "Elemento": "Aire", "Posición": "DF",
+        "Género": "M", "Invocador": "EG_N",
+        "EQUIPO": "INAZUMA JAPON"
+    },
+    {
         "Nombre": "ARION SHERWIND", "Curso": "1º",
         "Elemento": "Aire", "Posición": "MD",
         "Género": "M", "Invocador": "EG_Y",
