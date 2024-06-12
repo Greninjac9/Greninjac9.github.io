@@ -38,7 +38,6 @@ def CheckValues(g_index):
                 Pos = ["DF", "LB", "EG_Y", "EG_ARM"]
                 if Characters[g_index][key] in Pos and character[key] in Pos:
                     color = "#FFBF00"
-                    color = "#FFBF00"
             elif N == 7:
                 if Split_Key[0] == "RAIMON" and Split_char[0] == "RAIMON":
                     color = "#FFBF00"
