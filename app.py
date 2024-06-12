@@ -39,13 +39,10 @@ def CheckValues(g_index):
                 if Characters[g_index][key] in Pos and character[key] in Pos:
                     color = "#FFBF00"
             elif N == 7:
-                if Split_Key[0] == "RAIMON" and Split_char[0] == "RAIMON":
+                Equipos_Coincidentes = ["RAIMON", "ALPINO", "ACADEMIA ALIUS", "PROTOCOLO OMEGA"]
+                if ((" ".join(Split_Key[:2])) in Equipos_Coincidentes  and (" ".join(Split_char[:2])) in Equipos_Coincidentes
+                    and Equipos_Coincidentes.index((" ".join(Split_Key[:2]))) == Equipos_Coincidentes.index((" ".join(Split_char[:2])))):
                     color = "#FFBF00"
-                else:
-                    Equipos_Coincidentes = ["ACADEMIA ALIUS", "PROTOCOLO OMEGA"]
-                    if ((" ".join(Split_Key[:2])) in Equipos_Coincidentes  and (" ".join(Split_char[:2])) in Equipos_Coincidentes
-                        and Equipos_Coincidentes.index((" ".join(Split_Key[:2]))) == Equipos_Coincidentes.index((" ".join(Split_char[:2])))):
-                        color = "#FFBF00"
         if Characters[g_index][key] == character[key]:
             color = "green"
         if key in ["Elemento", "Género", "Invocador"]:
