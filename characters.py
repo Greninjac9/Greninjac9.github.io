@@ -733,6 +733,12 @@ Characters = [
         "EQUIPO": "CHRONO STORM"
     },
     {
+        "Nombre": "SPOTTER", "Curso": "Por_Definir",
+        "Elemento": "Montaña", "Posición": "MD",
+        "Género": "M", "Invocador": "EG_Y",
+        "EQUIPO": "L5 HEROES"
+    },
+    {
         "Nombre": "STEVE GRIM", "Curso": "2º",
         "Elemento": "Aire", "Posición": "MD",
         "Género": "M", "Invocador": "EG_N",
@@ -929,7 +935,7 @@ CharacterRef = [
     'RAY DARK', 'RICCARDO DI RIGO', 'RICCARDO DI RIGO (CS)', 'RYOMA NISHIKI', 'RYOMA NISHIKI (CS)', 
     ### S ###
     'SAM KINCAID', 'SAMGUK HAN', 'SEYMOUR HILLMAN', 'SCOTTY', 'SHAWN FROSTE', 'SHAWN FROSTE (ADULTO)', 'SHAWN FROSTE (AIDEN)', 
-    'SHAWN FROSTE (DF)', 'SHAWN FROSTE (LEGENDARIO)', 'SHAWN FROSTE (ORION)', 'SHUN', 'SILVIA WOODS', 'SOL DAYSTAR (CS)', 'SOR (CS)', 'STEVE GRIM', 'SUBARU HONDA', 'SUE', 
+    'SHAWN FROSTE (DF)', 'SHAWN FROSTE (LEGENDARIO)', 'SHAWN FROSTE (ORION)', 'SHUN', 'SILVIA WOODS', 'SOL DAYSTAR (CS)', 'SOR (CS)', 'SPOTTER', 'STEVE GRIM', 'SUBARU HONDA', 'SUE', 
     ### T ###
     'TERRY ARCHIBALD', 'TEZCAT', 'TOD IRONSIDE', 'TORCH', 'TORI', 'TRINA VERDURE', 'TYLER MURDOCK', 
     ### V ###
