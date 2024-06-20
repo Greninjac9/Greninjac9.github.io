@@ -58,7 +58,7 @@ Characters = [
     },
     {
         "Nombre": "ARION SHERWIND (ARIONS)", "Curso": "1º",
-        "Elemento": "Aire", "Posición": "MD",
+        "Elemento": "Aire", "Posición": "DL",
         "Género": "M", "Invocador": "EG_Y",
         "EQUIPO": "LOS ARIONS"
     },
